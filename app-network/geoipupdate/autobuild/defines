@@ -1,8 +1,7 @@
 PKGNAME=geoipupdate
 PKGSEC=net
 PKGDEP="curl geoip-api-c"
-BUILDDEP="go ronn-ng"
-BUILDDEP__AMD64="go pandoc"
+BUILDDEP="go go-md2man"
 PKGDES="GeoIP update client"
 
 PKGREP="geoip<=1.5.1"
