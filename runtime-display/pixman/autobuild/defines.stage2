@@ -63,6 +63,3 @@ MESON_AFTER__POWERPC=" \
 MESON_AFTER__PPC64=" \
              ${MESON_AFTER__RETRO} \
              -Dvmx=disabled"
-MESON_AFTER__MIPS64R6EL=" \
-             ${MESON_AFTER__RETRO} \
-             -Dvmx=disabled"
