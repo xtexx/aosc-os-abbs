@@ -6,8 +6,6 @@ PKGRECOM="qemu-user-static"
 PKGDES="An integrated packaging environment for AOSC OS"
 
 USECLANG=1
-# FIXME: clang: error: clang frontend command failed with exit code 139
-USECLANG__MIPS64R6EL=0
 
 # FIXME: ld.lld: relocation R_MIPS_64 cannot be used against local symbol
 NOLTO__LOONGSON3=1
