@@ -1,9 +1,3 @@
 abinfo "Using yuvconvert from source tree ..."
 sed -e 's|yuvconvert ${JPEG_LIBRARY}|${ly_lib_shared} ${JPEG_LIBRARY}|g' \
     -i "$SRCDIR"/CMakeLists.txt
-
-if ab_match_arch mips64r6el; then
-    abinfo "Dropping MSA flags to fix build ..."
-    export CFLAGS="${CFLAGS/-mmsa/}"
-    export CXXFLAGS="${CXXFLAGS/-mmsa/}"
-fi
