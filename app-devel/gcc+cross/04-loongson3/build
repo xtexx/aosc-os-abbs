@@ -14,8 +14,6 @@ elif [[ "${__CROSS}" = "loongarch64" ]]; then
     GCC_LANGS="c,c++,fortran,lto,objc,obj-c++,m2,d"
 elif [[ "${__CROSS}" = "loongson3" ]]; then
     GCC_LANGS="c,c++,fortran,lto,objc,obj-c++,m2,d"
-elif [[ "${__CROSS}" = "mips64r6el" ]]; then
-    GCC_LANGS="c,c++,fortran,lto,objc,obj-c++,m2,d,ada"
 elif [[ "${__CROSS}" = "ppc64el" ]]; then
     GCC_LANGS="c,c++,fortran,lto,go,objc,obj-c++,m2,d,ada"
 elif [[ "${__CROSS}" = "riscv64" ]]; then
@@ -26,8 +24,6 @@ fi
 if ab_match_arch loongarch64 || \
    ab_match_arch loongson3; then
     GCC_LANGS="c,c++,fortran,lto,objc,obj-c++,m2,d"
-elif ab_match_arch mips64r6el; then
-    GCC_LANGS="c,c++,fortran,lto,objc,obj-c++,m2,d,ada"
 fi
 
 SHARED_OPTIONS="""
