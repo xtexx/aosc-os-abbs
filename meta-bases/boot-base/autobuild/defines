@@ -7,7 +7,6 @@ PKGRECOM__AMD64="${PKGRECOM} efibootmgr grub intel-ucode"
 PKGRECOM__ARM64="${PKGRECOM} efibootmgr grub uboot-tools u-boot-menu"
 PKGRECOM__LOONGARCH64="${PKGRECOM} efibootmgr grub"
 PKGRECOM__LOONGSON3="${PKGRECOM} efibootmgr grub"
-PKGRECOM__MIPS64R6EL="${PKGRECOM}"
 PKGRECOM__PPC64EL="${PKGRECOM} efibootmgr grub"
 PKGRECOM__RISCV64="${PKGRECOM} efibootmgr grub uboot-tools u-boot-menu"
 
