@@ -8,8 +8,6 @@ elif ab_match_arch loongarch64; then
     export TARGETCONF="TARGET=GENERIC"
 elif ab_match_arch loongson3; then
     export TARGETCONF="TARGET=LOONGSON3A"
-elif ab_match_arch mips64r6el; then
-    export TARGETCONF="TARGET=I6400"
 elif ab_match_arch ppc64el; then
     export TARGETCONF="DYNAMIC_ARCH=1 TARGET=POWER8"
 elif ab_match_arch riscv64; then
