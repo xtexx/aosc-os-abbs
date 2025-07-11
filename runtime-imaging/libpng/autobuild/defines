@@ -26,9 +26,6 @@ AUTOTOOLS_AFTER__LOONGISA=" \
                  --enable-mips-mmi=yes"
 AUTOTOOLS_AFTER__LOONGSON2F="${AUTOTOOLS_AFTER__LOONGISA}"
 AUTOTOOLS_AFTER__LOONGSON3="${AUTOTOOLS_AFTER__LOONGISA}"
-AUTOTOOLS_AFTER__MIPS64R6EL=" \
-                 ${AUTOTOOLS_AFTER} \
-                 --enable-mips-msa=yes"
 AUTOTOOLS_AFTER__PPC64EL=" \
                  ${AUTOTOOLS_AFTER} \
                  --enable-powerpc-vsx=yes"
