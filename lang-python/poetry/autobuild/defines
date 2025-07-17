@@ -1,10 +1,12 @@
 PKGNAME=poetry
 PKGSEC=python
-PKGDEP="cachecontrol cachy cleo clikit html5lib-python jsonschema pexpect \
-	pkginfo pyparsing pyrsistent toolbelt requests shellingham tomlkit \
-	crashtest pexpect packaging virtualenv keyring poetry-core lockfile \
-	platformdirs dulwich tomli pyproject-hooks python-2 python-3"
-BUILDDEP="setuptools python-build python-installer setuptools-python2"
-PKGDES="Python dependency management and packaging made easy"
+PKGDEP="python-3 poetry-core cachecontrol cleo dulwich fastjsonschema \
+	keyring python-build python-installer packaging pkginfo platformdirs \
+	pyproject-hooks requests toolbelt shellingham tomlkit \
+	trove-classifiers virtualenv findpython pbs-installer crashtest"
+BUILDDEP="setuptools"
+PKGDES="Python dependency management and packaging tool"
 
 ABHOST=noarch
+ABTYPE=pep517
+NOPYTHON2=1
