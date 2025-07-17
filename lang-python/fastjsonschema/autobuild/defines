@@ -1,0 +1,8 @@
+PKGNAME=fastjsonschema
+PKGSEC=python
+PKGDEP="python-3"
+BUILDDEP="setuptools"
+PKGDES="Fast JSON schema validator for Python"
+
+ABHOST=noarch
+NOPYTHON2=1
