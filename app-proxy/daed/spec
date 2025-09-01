@@ -1,4 +1,5 @@
 VER=1.0.0
+REL=1
 SRCS="tbl::https://github.com/daeuniverse/daed/releases/download/v0.9.0/daed-full-src.zip"
 CHKSUMS="sha256::4ad31c5b3640906a6ef301ee06f94162cb2f5e577b1bd579f47476cae4b2dbf8"
 CHKUPDATE="anitya::id=375373"
