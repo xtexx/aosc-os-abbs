@@ -1,8 +1,10 @@
 PKGNAME=addict
 PKGSEC=python
 PKGDES="A Python module that exposes a dictionary subclass that allows items to be set like attributes"
-PKGDEP="python-2 python-3"
-BUILDDEP="setuptools setuptools-python2"
+PKGDEP="python-3"
+BUILDDEP="setuptools-python3"
 
 ABHOST=noarch
 ABTYPE=python
+
+NOPYTHON2=1
