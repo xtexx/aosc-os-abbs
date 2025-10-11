@@ -1,6 +1,6 @@
 PKGNAME=nemo
 PKGSEC=Cinnamon
-PKGDEP="libexif gvfs dconf desktop-file-utils exempi python-2 \
+PKGDEP="libexif gvfs dconf desktop-file-utils exempi python-3 \
         cinnamon-desktop libnotify libxml2 packagekit xapps"
 BUILDDEP="gnome-common gobject-introspection gtk-doc intltool polib"
 PKGDES="Cinnamon file manager"
