@@ -1,2 +1,0 @@
-make prefix=/usr
-make install DESTDIR="$PKGDIR" prefix=/usr
