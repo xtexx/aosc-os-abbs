@@ -1,7 +1,10 @@
 PKGNAME=blinker
 PKGSEC=python
-PKGDEP="python-3 python-2"
-BUILDDEP="setuptools flit-core setuptools-python2"
+PKGDEP="python-3"
+BUILDDEP="flit-core setuptools-python3"
 PKGDES="Fast, simple object-to-object and broadcast signaling"
 
 ABHOST=noarch
+ABTYPE=pep517
+
+NOPYTHON2=1
