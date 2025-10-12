@@ -1,7 +1,10 @@
 PKGNAME=recommonmark
 PKGSEC=python
-PKGDEP="commonmark sphinx python-2 python-3"
-BUILDDEP="setuptools setuptools-python2"
+PKGDEP="commonmark sphinx docutils python-3"
+BUILDDEP="setuptools-python3"
 PKGDES="A markdown parser for docutils"
 
 ABHOST=noarch
+ABTYPE=python
+
+NOPYTHON2=1
