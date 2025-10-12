@@ -1,8 +1,10 @@
 PKGNAME=mechanize
 PKGSEC=python
-PKGDEP="html5lib-python html5-parser python-2 python-3"
-BUILDDEP="setuptools setuptools-python2"
+PKGDEP="html5lib-python html5-parser python-3"
+BUILDDEP="setuptools-python3"
 PKGDES="Stateful programmatic Web browsing in Python"
 
 ABHOST=noarch
 ABTYPE=python
+
+NOPYTHON2=1
