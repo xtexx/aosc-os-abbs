@@ -1,7 +1,7 @@
 PKGNAME=kvpnc-trinity
 PKGSEC=Trinity
 PKGDEP="tdelibs"
-PKGRECOM="openswan openvpn pptp vpnc"
+PKGRECOM="openvpn pptp vpnc"
 BUILDDEP="tde-common-cmake"
 PKGDES="A multi-client VPN frontend for the Trinity Desktop Environment"
 
