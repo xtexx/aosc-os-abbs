@@ -1,12 +1,8 @@
 PKGNAME=soundkonverter-trinity
 PKGSEC=Trinity
 PKGDEP="cdparanoia ffmpeg taglib tdelibs"
+BUILDDEP="tde-common-cmake"
 PKGDES="An audio format converter for the Trinity Desktop Environment"
-
-AUTOTOOLS_AFTER="--enable-new-ldflags \
-                 --enable-final \
-                 --enable-pie \
-                 --disable-rpath"
 
 PKGCONFL="soundkonverter"
 
