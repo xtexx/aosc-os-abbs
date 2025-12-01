@@ -2,7 +2,7 @@ PKGNAME=ktorrent-trinity
 PKGSEC=Trinity
 PKGDEP="geoip-api-c tdelibs"
 BUILDDEP="tde-common-cmake"
-PKGDES="A BitTorrent client for the Trinity Desktop Environment"
+PKGDES="BitTorrent client for the Trinity Desktop Environment"
 
 CMAKE_AFTER=(
     -DWITH_ZEROCONF=ON
