@@ -3,7 +3,7 @@ PKGSEC=Trinity
 PKGDEP="arts libkexiv2-trinity libkipi-trinity libksquirrel-trinity \
         tdebase tdelibs"
 BUILDDEP="tde-common-cmake"
-PKGDES="A image viewer for the Trinity Desktop Environment"
+PKGDES="Image viewer for the Trinity Desktop Environment"
 
 CMAKE_AFTER=(
         -DWITH_ALL_OPTIONS=ON
