@@ -2,7 +2,7 @@ PKGNAME=gwenview-trinity
 PKGSEC=Trinity
 PKGDEP="cfitsio exiv2 tdelibs libkipi-trinity libmng"
 BUILDDEP="tde-common-cmake"
-PKGDES="A image viewer for the Trinity Desktop Environment"
+PKGDES="Image viewer for the Trinity Desktop Environment"
 
 CMAKE_AFTER=(
     -DWITH_ALL_OPTIONS=ON
