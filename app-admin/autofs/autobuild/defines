@@ -2,14 +2,16 @@ PKGNAME=autofs
 PKGSEC=admin
 PKGDEP="openldap kmod krb5 libxml2 libnsl2"
 BUILDDEP="rpcsvc-proto"
-PKGDES="A kernel-based automounter for Linux"
+PKGDES="Kernel-based automounter for Linux"
 
-ABSHADOW=0
-
-AUTOTOOLS_AFTER="--with-mapdir=/etc/autofs \
-                 --without-hesiod \
-                 --enable-ignore-busy \
-                 --with-systemd"
+ABTYPE=autotools
+AUTOTOOLS_AFTER=(
+      "--with-mapdir=/etc/autofs"
+      "--without-hesiod"
+      "--enable-ignore-busy"
+      "--with-systemd"
+)
 ABMK="INSTALLROOT=$PKGDIR \
       TIRPCLIB=-ltirpc \
       STRIP=true"
+ABSHADOW=0
