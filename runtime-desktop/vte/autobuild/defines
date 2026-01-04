@@ -2,7 +2,7 @@ PKGNAME=vte
 PKGSEC=gnome
 PKGDEP="at-spi2-core cairo fribidi gcc-runtime gdk-pixbuf glib glibc gnutls \
         graphene gtk-3 gtk-4 icu lz4 pango pcre2 simdutf systemd"
-BUILDDEP="fast-float fmt glade gobject-introspection gperf gtk-doc vala"
+BUILDDEP="fast-float fmt gobject-introspection vala"
 PKGDES="VTE widget for use with GTK"
 
 ABTYPE=meson
@@ -14,7 +14,7 @@ MESON_AFTER=(
     '-Ddocs=false'
     '-Dgir=true'
     '-Dfribidi=true'
-    '-Dglade=true'
+    '-Dglade=false'
     '-Dgnutls=true'
     '-Dgtk3=true'
     '-Dgtk4=true'
