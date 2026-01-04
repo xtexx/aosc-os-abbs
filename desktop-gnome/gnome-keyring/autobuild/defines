@@ -1,16 +1,17 @@
 PKGNAME=gnome-keyring
 PKGSEC=gnome
-PKGDEP="gcc-runtime gcr glib glibc libcap-ng libgcrypt linux-pam systemd"
-BUILDDEP="gtk-doc meson"
+PKGDEP="gcc-runtime gcr glib glibc libcap-ng libgcrypt systemd"
+BUILDDEP="docbook-xsl"
 PKGDES="GNOME password management daemon"
 
 ABTYPE=meson
+# Note: -Dpam=false, this is now supplied with libsecret.
 MESON_AFTER=(
-	'-Dssh-agent=true'
-	'-Dselinux=disabled'
-	'-Dsystemd=enabled'
-	'-Dpam=true'
-	'-Dpkcs11-config=/usr/share/p11-kit/modules'
-	'-Ddebug-mode=false'
-	'-Dmanpage=true'
+    '-Dssh-agent=true'
+    '-Dselinux=disabled'
+    '-Dsystemd=enabled'
+    '-Dpam=false'
+    '-Dpkcs11-config=/usr/share/p11-kit/modules'
+    '-Ddebug-mode=false'
+    '-Dmanpage=true'
 )
