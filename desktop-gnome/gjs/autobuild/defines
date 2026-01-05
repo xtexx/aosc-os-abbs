@@ -1,15 +1,17 @@
 PKGNAME=gjs
 PKGSEC=gnome
-PKGDEP="cairo gobject-introspection js-128 gtk-3 gtk-4"
+PKGDEP="cairo gobject-introspection js-140 gtk-3 gtk-4"
 PKGDES="JavaScript bindings for GNOME"
 
+ABTYPE=meson
 MESON_AFTER=(
-	-Dreadline=enabled
-	-Dprofiler=disabled
-	-Dinstalled_tests=false
-	-Ddtrace=false
-	-Dsystemtap=false
-	-Dbsymbolic_functions=true
+    '-Dreadline=enabled'
+    '-Dprofiler=disabled'
+    '-Dinstalled_tests=false'
+    '-Ddtrace=false'
+    '-Dsystemtap=false'
+    '-Dbsymbolic_functions=true'
+    '-Dverbose_logs=false'
 )
 
 # FIXME: Link time undefined symbol shenanigans on ls3
