@@ -1,4 +1,5 @@
 VER=17.9
+REL=1
 SRCS="tbl::https://ftp.postgresql.org/pub/source/v$VER/postgresql-$VER.tar.bz2"
 CHKSUMS="sha256::3b9a62538a8da151e807a3ddb1198e8605f2032544d78f403ae883d27ecf1ee4"
 CHKUPDATE="anitya::id=375014"
