@@ -3,5 +3,15 @@ PKGSEC=gnome
 BUILDDEP="intltool itstool libxml2 libxslt"
 PKGDES="Yelp stylesheets in XSL"
 
-ABSHADOW=no
 ABHOST=noarch
+
+ABTYPE=meson
+# FIXME: -Dyelp_manual=false
+#
+# doc/yelp-xsl/meson.build:1:18: ERROR: Program 'xsldoc-scan' not found or not executable
+MESON_AFTER=(
+    '-Ddita=false'
+    '-Ddocbook=true'
+    '-Dmallard=true'
+    '-Dyelp_manual=false'
+)

@@ -1,4 +1,4 @@
-VER=42.1
+VER=49.0
 SRCS="https://download.gnome.org/sources/yelp-xsl/${VER%.*}/yelp-xsl-$VER.tar.xz"
-CHKSUMS="sha256::238be150b1653080ce139971330fd36d3a26595e0d6a040a2c030bf3d2005bcd"
+CHKSUMS="sha256::59d43a8f8fe67b784f14f9a04dd4a7a092a7f4a64a65e71b90fe02a47a50fbec"
 CHKUPDATE="anitya::id=13164"
