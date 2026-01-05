@@ -1,0 +1,23 @@
+export MOZ_NOSPAM=1
+export MOZBUILD_STATE_PATH="$SRCDIR"/mozbuild
+export MACH_NO_TERMINAL_FOOTER=1
+
+abinfo "Building SpiderMonkey ..."
+"$SRCDIR"/mach build
+
+# Bug 1946524 isn't backported to esr128 yet, so falling back to make for installation.
+#
+# Link: https://phabricator.services.mozilla.com/D243491
+# Link: https://gitlab.archlinux.org/archlinux/packaging/packages/js128/-/blob/a0a2ea7468a0067ccd5e7e4691c0f2f38f20e8fc/PKGBUILD#L152-153
+abinfo "Installing SpiderMonkey ..."
+make -C "$SRCDIR"/obj DESTDIR="$PKGDIR" install
+
+abinfo "Removing all .ajs files from /usr/lib ..."
+rm -v "$PKGDIR"/usr/lib/*.ajs
+
+abinfo "Dropping executable bits from pkgconfig, include ..."
+find "$PKGDIR"/usr/{lib/pkgconfig,include} -type f \
+    -exec chmod -v -c a-x {} +
+
+abinfo "Removing /usr/bin ..."
+rm -rv "$PKGDIR"/usr/bin

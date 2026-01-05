@@ -1,0 +1,8 @@
+PKGNAME=js-140
+PKGSEC=libs
+PKGDEP="nspr readline zlib"
+BUILDDEP="python-3 rustc llvm cbindgen"
+PKGDES="Mozilla JavaScript interpreter library (version 140)"
+
+ABTYPE=self
+USECLANG=1
