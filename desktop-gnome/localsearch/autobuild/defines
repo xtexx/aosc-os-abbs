@@ -1,0 +1,50 @@
+PKGNAME=localsearch
+PKGSEC=gnome
+PKGDEP="exempi ffmpeg gexiv2 giflib icu libcue libexif libgsf libgxps \
+        libiptcdata libosinfo libseccomp libwebp poppler tinysparql \
+        totem-pl-parser upower"
+BUILDDEP="asciidoc"
+PKGDES="Filesystem indexer and metadata extractor for GNOME"
+
+MESON_AFTER=(
+    '-Dextract=true'
+    '-Dfunctional_tests=false'
+    '-Dsandbox_tests=false'
+    '-Dguarantee_metadata=true'
+    '-Dman=true'
+    '-Dminer_fs=true'
+    '-Dwriteback=true'
+    '-Dseccomp=true'
+    '-Dlandlock=enabled'
+    '-Dfanotify=enabled'
+    '-Dabiword=true'
+    '-Dicon=true'
+    '-Dmp3=true'
+    '-Dps=true'
+    '-Dtext=true'
+    '-Dunzip_ps_gz_files=true'
+    '-Dcue=enabled'
+    '-Dexif=enabled'
+    '-Dgif=enabled'
+    '-Dgsf=enabled'
+    '-Diptc=enabled'
+    '-Diso=enabled'
+    '-Djpeg=enabled'
+    '-Dpdf=enabled'
+    '-Dplaylist=enabled'
+    '-Dpng=enabled'
+    '-Draw=enabled'
+    '-Dtiff=enabled'
+    '-Dxml=enabled'
+    '-Dxmp=enabled'
+    '-Dxps=enabled'
+    '-Dlibav=enabled'
+    '-Dwebp=enabled'
+    '-Dbattery_detection=upower'
+    '-Dcharset_detection=icu'
+    '-Dbash_completion=true'
+    '-Dsystemd_user_services=true'
+)
+
+PKGBREAK="tracker-miners"
+PKGREP="tracker-miners"
