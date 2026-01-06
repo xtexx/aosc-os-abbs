@@ -1,5 +1,4 @@
-VER=1.0.2
-REL=2
+VER=1.0.3
 SRCS="tbl::https://download.gnome.org/sources/gsound/${VER%.*}/gsound-$VER.tar.xz"
-CHKSUMS="sha256::bba8ff30eea815037e53bee727bbd5f0b6a2e74d452a7711b819a7c444e78e53"
+CHKSUMS="sha256::ca2d039e1ebd148647017a7f548862350bc9af01986d39f10cfdc8e95f07881a"
 CHKUPDATE="anitya::id=9681"
