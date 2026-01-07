@@ -1,18 +1,20 @@
 PKGNAME=libnma
 PKGSEC=libs
-PKGDEP="gcr gtk-4 iso-codes mobile-broadband-provider-info networkmanager"
-BUILDDEP="gobject-introspection gtk-doc vala"
+PKGDEP="gcr-3 gtk-4 iso-codes mobile-broadband-provider-info networkmanager"
+BUILDDEP="gobject-introspection vala"
 PKGDES="NetworkManager GUI client library"
 
 ABTYPE=meson
-MESON_AFTER="-Dlibnma_gtk4=true \
-             -Dgcr=true \
-             -Diso_codes=true \
-             -Dmobile_broadband_provider_info=true \
-             -Dld_gc=true \
-             -Dgtk_doc=true \
-             -Dintrospection=true \
-             -Dvapi=true"
+MESON_AFTER=(
+    '-Dlibnma_gtk4=true'
+    '-Dgcr=true'
+    '-Diso_codes=true'
+    '-Dmobile_broadband_provider_info=true'
+    '-Dld_gc=true'
+    '-Dgtk_doc=false'
+    '-Dintrospection=true'
+    '-Dvapi=true'
+)
 
 PKGBREAK="network-manager-applet<=1.8.24"
 PKGREP="network-manager-applet<=1.8.24"
