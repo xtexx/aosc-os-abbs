@@ -84,8 +84,6 @@ desktop-gnome/orca
 desktop-gnome/gdm
 runtime-editors/gtksourceview-4
 runtime-editors/tepl
-desktop-gnome/gedit
-desktop-gnome/gedit-plugins
 desktop-gnome/sysprof
 desktop-gnome/gtk-4
 desktop-gnome/gjs
