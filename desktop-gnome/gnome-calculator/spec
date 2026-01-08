@@ -1,5 +1,4 @@
-VER=42.2
-REL=2
+VER=49.2
 SRCS="https://download.gnome.org/sources/gnome-calculator/${VER%.*}/gnome-calculator-$VER.tar.xz"
-CHKSUMS="sha256::33dab1bca43658d66520958b0f674cb0ad3185cfd30c12e459e7f69481c5c6a0"
+CHKSUMS="sha256::ddf4cd2edda135c41c8af68f9c0cdcd9d9a9163cb9f7f8e28ca2c8e81fd87657"
 CHKUPDATE="anitya::id=13126"

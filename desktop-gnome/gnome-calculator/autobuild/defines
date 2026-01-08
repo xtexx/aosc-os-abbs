@@ -1,9 +1,16 @@
 PKGNAME=gnome-calculator
 PKGSEC=gnome
-PKGDEP="dconf gtk-4 gtksourceview-5 libadwaita mpfr mpc"
-BUILDDEP="gnome-shell gobject-introspection intltool vala yelp-tools"
-PKGDES="GNOME scientific calculator"
+PKGDEP="gtk-4 gtksourceview-5 libadwaita"
+BUILDDEP="blueprint-compiler gobject-introspection vala"
+PKGDES="Scientific calculator for GNOME"
 
-MESON_AFTER=("-Ddisable-ui=false"
-             "-Ddisable-introspection=false"
-             "-Ddevelopment=false")
+MESON_AFTER=(
+    '-Ddisable-ui=false'
+    '-Ddisable-introspection=true'
+    '-Dui-tests=false'
+    '-Ddevelopment=false'
+    '-Dgcalc=true'
+    '-Dgci=true'
+    '-Dapp=true'
+    '-Ddoc=false'
+)
