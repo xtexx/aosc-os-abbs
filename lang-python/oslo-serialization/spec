@@ -2,3 +2,4 @@ VER=5.8.0
 SRCS="pypi::version=$VER::oslo.serialization"
 CHKSUMS="sha256::5871a62b23f98cacd5518482941ae6d2a983e2936ed52d543ad08685dc6d2343"
 CHKUPDATE="anitya::id=13181"
+REL="1"
