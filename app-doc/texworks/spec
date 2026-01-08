@@ -2,3 +2,4 @@ VER=0.6.10
 SRCS="tbl::https://github.com/TeXworks/texworks/archive/release-$VER.tar.gz"
 CHKSUMS="sha256::bbc29d5aba451355222b29dd02ef318fd7fec55a721a61fc6d9cd933a0abd270"
 CHKUPDATE="anitya::id=4961"
+REL="1"
