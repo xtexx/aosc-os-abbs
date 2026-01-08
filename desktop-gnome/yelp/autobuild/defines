@@ -1,10 +1,11 @@
 PKGNAME=yelp 
 PKGSEC=gnome
-PKGDEP="bzip2 dconf desktop-file-utils hicolor-icon-theme libhandy libxslt \
-        webkit2gtk yelp-xsl xz"
-BUILDDEP="gtk-doc intltool itstool xorg-server"
-PKGDES="A help browser for GNOME"
+PKGDEP="bzip2 gtk-4 libadwaita libxslt sqlite webkit2gtk xz"
+BUILDDEP="itstool yelp-xsl"
+PKGDES="Help browser for GNOME"
 
-AUTOTOOLS_AFTER="--enable-gtk-doc \
-                 --with-webkit2gtk-4-0"
-RECONF=0
+ABTYPE=meson
+MESON_AFTER=(
+    '-Dlzma=enabled'
+    '-Dbzip2=enabled'
+)
