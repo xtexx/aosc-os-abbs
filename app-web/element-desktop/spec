@@ -4,3 +4,4 @@ SRCS="git::commit=tags/v$VER;rename=element-web::https://github.com/element-hq/e
 CHKSUMS="SKIP SKIP"
 SUBDIR="."
 CHKUPDATE="anitya::id=377040"
+REL="1"
