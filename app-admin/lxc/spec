@@ -2,3 +2,4 @@ VER=6.0.5
 SRCS="git::commit=tags/v$VER::https://github.com/lxc/lxc"
 CHKSUMS="SKIP"
 CHKUPDATE="anitya::id=1860"
+REL="1"
