@@ -2,3 +2,4 @@ VER=73
 SRCS="git::commit=tags/R$VER::https://github.com/vapoursynth/vapoursynth.git"
 CHKSUMS="SKIP"
 CHKUPDATE="anitya::id=15982"
+REL="1"
