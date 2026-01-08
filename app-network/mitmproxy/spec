@@ -7,3 +7,4 @@ CHKSUMS="SKIP \
          SKIP"
 CHKUPDATE="anitya::id=13889"
 SUBDIR=.
+REL="1"
