@@ -2,3 +2,4 @@ VER=3.2.1
 SRCS="git::commit=tags/$VER::https://github.com/wtforms/wtforms.git"
 CHKSUMS="SKIP"
 CHKUPDATE="anitya::id=11805"
+REL="1"
