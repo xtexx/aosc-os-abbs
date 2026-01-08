@@ -2,3 +2,4 @@ VER=0.17.4
 SRCS="git::commit=tags/$VER;copy-repo=true::https://github.com/hotdoc/hotdoc"
 CHKSUMS="SKIP"
 CHKUPDATE="anitya::id=102371"
+REL="1"
