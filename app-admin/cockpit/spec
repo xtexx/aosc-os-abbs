@@ -18,3 +18,4 @@ VER=353
 SRCS="git::commit=d2a6fca152062dafdc2fa8b187c849e3a2989d27;copy-repo=true::https://github.com/AOSC-Tracking/cockpit"
 CHKSUMS="SKIP"
 CHKUPDATE="anitya::id=8849"
+REL="1"
