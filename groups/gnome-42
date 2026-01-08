@@ -156,7 +156,6 @@ desktop-gnome/swell-foop
 desktop-gnome/tali
 runtime-common/glib-networking
 runtime-common/glib-static
-app-admin/callaudiod
 desktop-gnome/calls
 desktop-cinnamon/cinnamon
 desktop-gnome/accerciser

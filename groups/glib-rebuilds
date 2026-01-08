@@ -9,7 +9,6 @@ runtime-desktop/bamf
 app-multimedia/bluez-alsa
 app-a11y/brltty
 runtime-imaging/cairo
-app-admin/callaudiod
 app-web/carbons
 app-web/castget
 app-devel/cattle
