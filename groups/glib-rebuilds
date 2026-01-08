@@ -33,7 +33,6 @@ app-admin/fuseiso
 app-admin/fwupd
 desktop-gnome/gcab
 runtime-imaging/gdk-pixbuf
-desktop-gnome/gdome2
 desktop-gnome/geocode-glib
 app-devel/gettext
 runtime-common/glib-static
