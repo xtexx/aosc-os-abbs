@@ -64,7 +64,6 @@ desktop-gnome/evince
 desktop-gnome/evolution-ews
 desktop-gnome/folks
 runtime-database/gom
-desktop-gnome/calls
 desktop-gnome/gnome-session
 lang-python/pyatspi
 desktop-gnome/orca
