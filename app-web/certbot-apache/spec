@@ -2,3 +2,4 @@ VER=5.1.0
 SRCS="tbl::https://pypi.io/packages/source/c/certbot-apache/certbot_apache-$VER.tar.gz"
 CHKSUMS="sha256::83f7e7578bb06c57b3d27f82ebd3c113e6f7fc8a41dc722cdc143ac98064b0ef"
 CHKUPDATE="anitya::id=10837"
+REL="1"
