@@ -92,7 +92,6 @@ desktop-gnome/gnome-panel
 app-admin/upower
 runtime-display/x11-lib
 desktop-gnome/gnome-settings-daemon
-desktop-gnome/gnome-applets
 desktop-gnome/gnome-backgrounds
 desktop-gnome/libadwaita
 desktop-gnome/gnome-bluetooth

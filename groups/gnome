@@ -75,7 +75,6 @@ runtime-common/glib-networking
 runtime-common/glib-static
 desktop-gnome/gnome-panel
 desktop-gnome/gnome-settings-daemon
-desktop-gnome/gnome-applets
 desktop-gnome/gnome-backgrounds
 desktop-gnome/gnome-bluetooth
 runtime-virtualization/libvirt-glib
