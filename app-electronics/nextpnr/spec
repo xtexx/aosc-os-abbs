@@ -4,3 +4,4 @@ SRCS="git::commit=tags/nextpnr-$VER;rename=nextpnr::https://github.com/YosysHQ/n
 CHKSUMS="SKIP"
 CHKUPDATE="anitya::id=376932"
 SUBDIR="nextpnr"
+REL="1"
