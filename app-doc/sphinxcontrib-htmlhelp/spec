@@ -2,3 +2,4 @@ VER=2.1.0
 SRCS="pypi::version=$VER::sphinxcontrib-htmlhelp"
 CHKSUMS="sha256::c9e2916ace8aad64cc13a0d233ee22317f2b9025b9cf3295249fa985cc7082e9"
 CHKUPDATE="anitya::id=19906"
+REL="1"
