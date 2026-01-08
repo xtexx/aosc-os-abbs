@@ -1,7 +1,0 @@
-PKGNAME=gconfmm
-PKGSEC=gnome
-PKGDEP="gconf glibmm"
-BUILDDEP="mm-common"
-PKGDES="C++ bindings for GConf"
-
-ABSHADOW=0
