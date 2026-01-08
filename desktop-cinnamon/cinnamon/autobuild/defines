@@ -1,6 +1,6 @@
 PKGNAME=cinnamon
 PKGSEC=Cinnamon
-PKGDEP="accountsservice blueberry caribou cinnamon-settings-daemon cinnamon-session \
+PKGDEP="accountsservice blueberry cinnamon-settings-daemon cinnamon-session \
         cjs clutter-gtk gnome-backgrounds gconf gstreamer-1-0 \
         libgnome-keyring librsvg network-manager-applet muffin py3cairo dbus-python \
         pillow lxml python-pam pyinotify pexpect cinnamon-control-center \
