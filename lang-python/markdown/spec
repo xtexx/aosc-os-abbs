@@ -2,3 +2,4 @@ VER=3.8
 SRCS="pypi::version=$VER::markdown"
 CHKSUMS="sha256::7df81e63f0df5c4b24b7d156eb81e4690595239b7d70937d0409f1b0de319c6f"
 CHKUPDATE="anitya::id=3916"
+REL="1"
