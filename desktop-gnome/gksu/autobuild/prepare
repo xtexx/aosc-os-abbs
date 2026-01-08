@@ -1,2 +1,0 @@
-sed -i -e 's|/usr/bin/x-terminal-emulator|-l gnome-terminal|g' gksu.desktop
-echo "TryExec=gnome-terminal" >> gksu.desktop
