@@ -1,1 +1,0 @@
-export LIBS="-lX11 -lgtk-x11-2.0"
