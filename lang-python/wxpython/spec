@@ -2,3 +2,4 @@ VER=4.2.3
 SRCS="tbl::https://files.pythonhosted.org/packages/source/w/wxPython/wxPython-$VER.tar.gz"
 CHKSUMS="sha256::20d6e0c927e27ced85643719bd63e9f7fd501df6e9a8aab1489b039897fd7c01"
 CHKUPDATE="anitya::id=16928"
+REL="1"
