@@ -2,3 +2,4 @@ VER=3.6.0
 SRCS="tbl::http://openvswitch.org/releases/openvswitch-$VER.tar.gz"
 CHKSUMS="sha256::379b609c69d3b7198924f39e2565fadacb06ec9e322e961ec6e2cd9835743981"
 CHKUPDATE="anitya::id=2568"
+REL="1"
