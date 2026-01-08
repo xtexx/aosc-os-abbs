@@ -1,23 +1,26 @@
 PKGNAME=gdm
 PKGSEC=gnome
-PKGDEP="accountsservice dconf desktop-base libcanberra linux-pam nss upower \
-        gnome-session wayland fprintd plymouth orca"
-BUILDDEP="gobject-introspection gtk-doc intltool itstool yelp-tools"
+PKGDEP="accountsservice json-glib keyutils plymouth xorg-server gtk-3"
+BUILDDEP="gobject-introspection itstool"
 PKGDES="GNOME Display Manager"
 
-MESON_AFTER="-Ddefault-pam-config=arch \
-             -Dgdm-xsession=true \
-             -Dgroup=gdm \
-             -Dinitial-vt=1 \
-             -Dipv6=true \
-             -Dlibaudit=disabled \
-             -Dplymouth=enabled \
-             -Dprofiling=false \
-             -Dselinux=disabled \
-             -Dsolaris=false \
-             -Dsplit-authentication=true \
-             -Dtcp-wrappers=false \
-             -Duser=gdm \
-             -Duser-display-server=true \
-             -Dwayland-support=true \
-             -Dxdmcp=enabled"
+MESON_AFTER=(
+    '-Ddefault-pam-config=arch'
+    '-Dgdm-xsession=true'
+    '-Dgroup=gdm'
+    '-Dinitial-vt=1'
+    '-Dipv6=true'
+    '-Dlibaudit=disabled'
+    '-Dlogind-provider=systemd'
+    '-Dplymouth=enabled'
+    '-Dprofiling=false'
+    '-Dselinux=disabled'
+    '-Dsolaris=false'
+    '-Dsplit-authentication=true'
+    '-Dsystemd-journal=true'
+    '-Dtcp-wrappers=false'
+    '-Duser-display-server=true'
+    '-Dwayland-support=true'
+    '-Dx11-support=true'
+    '-Dxdmcp=enabled'
+)
