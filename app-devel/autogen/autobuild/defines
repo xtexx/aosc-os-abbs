@@ -1,6 +1,7 @@
 PKGNAME=autogen
 PKGSEC=devel
 PKGDEP="guile-2.2 libxml2"
-PKGDES="A tool designed to simplify the creation and maintenance of programs"
+PKGDES="Tool designed to simplify the creation and maintenance of programs"
 
+ABTYPE=autotools
 AUTOTOOLS_AFTER="--disable-dependency-tracking"
