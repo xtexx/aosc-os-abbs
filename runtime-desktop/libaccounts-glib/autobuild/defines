@@ -1,5 +1,11 @@
 PKGNAME=libaccounts-glib
 PKGSEC=libs
 PKGDEP="dbus-glib libxml2 sqlite pygobject-3"
-BUILDDEP="check docbook-xsl gtk-doc vala vim"
+BUILDDEP="vala vim"
 PKGDES="GLib-based client library for accessing the online accounts database"
+
+ABTYPE=meson
+MESON_AFTER=(
+    "-Ddocs=false"
+    "-Dtests=false"
+)
