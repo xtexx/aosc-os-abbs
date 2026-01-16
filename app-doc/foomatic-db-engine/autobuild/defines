@@ -1,6 +1,6 @@
 PKGNAME=foomatic-db-engine
 PKGSEC=libs
-PKGDEP="cups-filters perl-clone perl-dbi perl-xml-libxml"
+PKGDEP="cups-filters perl-clone perl-dbi perl-xml-libxml libxml2"
 PKGDES="Database-driven system for integrating free software printer drivers with common spoolers under Unix"
 
 ABSHADOW=0
