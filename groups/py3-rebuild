@@ -21,14 +21,21 @@ setuptools-rust
 pyasn1
 ipaddress
 asn1crypto
+cffi
+pycparser
 cryptography
+meson
 dbus-python
 secretstorage
 pyproject-metadata
 meson-python
 pycairo
-meson
 roman-numerals
+pluggy
+pathspec
+calver
+trove-classifiers
+hatchling
 colorama
 sphinxcontrib-websupport
 sphinxcontrib-serializinghtml
@@ -44,9 +51,8 @@ python-hpack
 hyper-h2
 brotli
 ply
-pycparser
-cffi
 brotlicffi
+hatch-vcs
 urllib3
 idna
 charset-normalizer
@@ -62,14 +68,8 @@ sphinx
 pyproject-hooks
 platformdirs
 distlib
-hatch-vcs
-calver
-trove-classifiers
 setuptools-scm
-pluggy
 python-installer
-pathspec
-hatchling
 py-filelock
 virtualenv
 pip
@@ -90,7 +90,6 @@ setuptools-python3
 setuptools
 file
 libcap-ng
-util-linux-runtime
 util-linux
 toml
 smartypants
@@ -162,10 +161,8 @@ sanlock
 nftables
 newt
 debconf
-llvm-runtime-20
 libglvnd
 protobuf
-python-2
 llvm-20
 qt-6
 sip
@@ -216,7 +213,6 @@ fail2ban
 pefile
 fwupd-efi
 fwupd
-setuptools-python2
 future
 defusedxml
 ujson
@@ -246,7 +242,6 @@ snapper-gui
 talloc
 tevent
 tdb
-ldb
 nfs-utils
 toolbelt
 hyper-h11
@@ -284,7 +279,6 @@ pycups
 flaky
 pycurl
 pysmbc
-system-config-printer-runtime
 system-config-printer
 wcwidth
 urwid
@@ -350,17 +344,11 @@ pycryptodomex
 pyfzf
 mycli
 pgxnclient
-postgresql-runtime-13
 postgresql-13
-postgresql-runtime-14
 postgresql-14
-postgresql-runtime-15
 postgresql-15
-postgresql-runtime-16
 postgresql-16
-postgresql-runtime-17
 postgresql-17
-postgresql-runtime-18
 postgresql-18
 mercurial
 acbs
@@ -413,11 +401,6 @@ gringo
 gyp
 keystone
 lfortran
-llvm-18
-llvm-runtime-18
-llvm-runtime-19
-llvm-19
-llvm-runtime-21
 llvm-21
 pam-wrapper
 pushpkg
@@ -546,7 +529,6 @@ teeworlds
 unrpyc
 fcitx5-configtool
 fcitx5-migrator
-libibus
 ibus
 ibus-anthy
 ibus-libpinyin
@@ -825,7 +807,6 @@ certbot-dns-cloudflare
 certbot-nginx
 libtorrent-rasterbar
 pygeoip
-deluge
 element-desktop
 libsixel
 elinks
@@ -878,7 +859,6 @@ gitg
 glade
 glycin
 autopep8
-gnome-builder
 gnome-tweaks
 gupnp
 libpeas-2
@@ -920,7 +900,6 @@ cachy
 cerberus
 cfgv
 characteristic
-cheetah
 cheetah3
 cherrypy
 pastel
@@ -959,7 +938,6 @@ flask-login
 flask-mail
 wtforms
 flask-wtf
-foolscap
 fuse-python
 gmpy2
 greenlet
@@ -991,7 +969,6 @@ nodeenv
 ntlm-auth
 openai-python
 owslib
-peewee
 userpath
 pipx
 pluginbase
@@ -1000,7 +977,6 @@ precis-i18n
 pyaaf2
 pyacoustid
 pyaudio
-pycryptopp
 speg
 pycson
 pygame-sdl2
@@ -1084,7 +1060,6 @@ libglvnd+32
 spirv-tools+32
 libpst
 libmsym
-nlopt
 vigra
 libguestfs
 llvm-runtime+wasi
