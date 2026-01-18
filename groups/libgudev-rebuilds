@@ -3,7 +3,6 @@ desktop-gnome/clutter-gst-3.0
 app-admin/colord
 app-admin/fwupd
 desktop-gnome/gnome-control-center
-desktop-gnome/gnome-multi-writer
 desktop-gnome/gnome-settings-daemon
 desktop-gnome/gnome-software
 runtime-multimedia/gst-plugins-bad-1-0
