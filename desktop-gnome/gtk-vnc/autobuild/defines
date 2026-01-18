@@ -1,12 +1,16 @@
 PKGNAME=gtk-vnc
 PKGSEC=gnome
 PKGDEP="libgcrypt gtk-3 gnutls pulseaudio"
-BUILDDEP="gobject-introspection gtk-doc intltool vala"
-PKGDES="A VNC viewer widget for GTK"
+BUILDDEP="gobject-introspection vala"
+PKGDES="VNC viewer widget for GTK"
 
-MESON_AFTER="-Dintrospection=enabled \
-             -Dpulseaudio=enabled \
-             -Dsasl=enabled \
-             -Dwith-coroutine=auto \
-             -Dwith-tls-priority=auto \
-             -Dwith-vala=enabled"
+MESON_AFTER=(
+    '-Dintrospection=enabled'
+    '-Dpulseaudio=enabled'
+    '-Dsasl=enabled'
+    '-Dwith-coroutine=auto'
+    '-Dwith-tls-priority=auto'
+    '-Dwith-vala=enabled'
+    '-Dgi-docs=disabled'
+    '-Dvalgrind=false'
+)
