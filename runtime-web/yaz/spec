@@ -1,4 +1,5 @@
 VER=5.37.0
-SRCS="tbl::http://ftp.indexdata.dk/pub/yaz/yaz-$VER.tar.gz"
-CHKSUMS="sha256::9257feb06e2fdbbfceb7d040c139fa13957c4d1ebba6aa293a6dd13cab2225ce"
+REL=1
+SRCS="git::commit=tags/v$VER::https://github.com/indexdata/yaz"
+CHKSUMS="SKIP"
 CHKUPDATE="anitya::id=5287"
