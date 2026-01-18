@@ -1,32 +1,33 @@
 PKGNAME=grilo-plugins
 PKGSEC=gnome
 PKGDEP="dleyna-server gom grilo libdmapsharing libgdata libmediaart \
-        lua-5.3 tracker tracker-miners"
+        lua-5.4 tinysparql localsearch"
 BUILDDEP="gperf intltool itstool"
 PKGDES="Plugins for Grilo"
 
-MESON_AFTER="-Denable-bookmarks=yes \
-             -Denable-chromaprint=yes \
-             -Denable-dleyna=yes \
-             -Ddleyna-service-name=yes \
-             -Denable-dmap=yes \
-             -Denable-filesystem=yes \
-             -Denable-flickr=yes \
-             -Denable-freebox=yes \
-             -Denable-gravatar=yes \
-             -Denable-local-metadata=yes \
-             -Denable-lua-factory=yes \
-             -Denable-magnatune=yes \
-             -Denable-metadata-store=yes \
-             -Denable-opensubtitles=yes \
-             -Denable-optical-media=yes \
-             -Denable-podcasts=yes \
-             -Denable-raitv=yes \
-             -Denable-shoutcast=yes \
-             -Denable-thetvdb=yes \
-             -Denable-tmdb=yes \
-             -Denable-tracker=no \
-             -Denable-tracker3=yes \
-             -Denable-youtube=yes \
-             -Dgoa=enabled \
-             -Dhelp=yes"
+# FIXME: -Denable-youtube=no, not yet ported to libsoup-3 (denoted as
+# `unresolvable-dep', not confusing at all).
+MESON_AFTER=(
+    '-Denable-bookmarks=yes'
+    '-Denable-chromaprint=yes'
+    '-Denable-dleyna=yes'
+    '-Denable-dmap=yes'
+    '-Denable-filesystem=yes'
+    '-Denable-flickr=yes'
+    '-Denable-freebox=yes'
+    '-Denable-gravatar=yes'
+    '-Denable-local-metadata=yes'
+    '-Denable-lua-factory=yes'
+    '-Denable-magnatune=yes'
+    '-Denable-metadata-store=yes'
+    '-Denable-optical-media=yes'
+    '-Denable-podcasts=yes'
+    '-Denable-shoutcast=yes'
+    '-Denable-thetvdb=yes'
+    '-Denable-tmdb=yes'
+    '-Denable-tracker=no'
+    '-Denable-tracker3=yes'
+    '-Denable-youtube=no'
+    '-Dgoa=enabled'
+    '-Dhelp=yes'
+)

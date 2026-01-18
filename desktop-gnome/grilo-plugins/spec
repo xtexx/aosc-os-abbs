@@ -1,5 +1,4 @@
-VER=0.3.15
-REL=2
+VER=0.3.18
 SRCS="tbl::https://download.gnome.org/sources/grilo-plugins/${VER%.*}/grilo-plugins-$VER.tar.xz"
-CHKSUMS="sha256::8518c3d954f93095d955624a044ce16a7345532f811d299dbfa1e114cfebab33"
+CHKSUMS="sha256::8e3ce74ee717c3c322d0cb0f8df26bb0914028a5d016e28055ffb49cc9a46c5e"
 CHKUPDATE="anitya::id=10929"
