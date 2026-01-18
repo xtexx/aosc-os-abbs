@@ -102,7 +102,6 @@ desktop-gnome/libgnome-games-support
 desktop-gnome/grilo-plugins
 desktop-gnome/gnome-remote-desktop
 desktop-gnome/gnome-shell-extensions
-desktop-gnome/gnome-software
 desktop-gnome/gnome-sound-recorder
 desktop-gnome/gnome-sudoku
 runtime-desktop/vte
