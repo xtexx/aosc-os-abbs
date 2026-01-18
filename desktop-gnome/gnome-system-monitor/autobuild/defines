@@ -1,8 +1,10 @@
 PKGNAME=gnome-system-monitor
 PKGSEC=gnome
-PKGDEP="desktop-file-utils gtkmm-3 libgtop libhandy librsvg systemd gtk-update-icon-cache"
-BUILDDEP="appstream-glib docbook-xsl intltool itstool"
-PKGDES="A system monitor for GNOME"
+PKGDEP="catch2 glibmm-2.68 gtk-4 gtkmm-4 libadwaita libgtop librsvg systemd"
+BUILDDEP="itstool"
+PKGDES="System and task monitor for GNOME"
 
-MESON_AFTER="-Dwnck=false \
-             -Dsystemd=true"
+MESON_AFTER=(
+    '-Dsystemd=true'
+    '-Ddevelopment=false'
+)
