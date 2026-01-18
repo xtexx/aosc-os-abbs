@@ -1,10 +1,12 @@
 PKGNAME=gnome-terminal
 PKGSEC=gnome
-PKGDEP="dconf gsettings-desktop-schemas libepoxy vte"
-BUILDDEP="gnome-common gnome-shell gtk-doc intltool nautilus vala yelp-tools"
-PKGDES="GNOME terminal emulator"
+PKGDEP="gtk-3 libhandy vte"
+BUILDDEP="docbook-xsl itstool nautilus"
+PKGDES="Terminal emulator for GNOME"
 
-MESON_AFTER="-Ddbg=false \
-             -Ddocs=true \
-             -Dnautilus_extension=true \
-             -Dsearch_provider=true"
+MESON_AFTER=(
+    '-Ddbg=false'
+    '-Ddocs=false'
+    '-Dnautilus_extension=true'
+    '-Dsearch_provider=true'
+)
