@@ -103,7 +103,6 @@ desktop-gnome/grilo-plugins
 desktop-gnome/gnome-remote-desktop
 desktop-gnome/gnome-shell-extensions
 runtime-desktop/vte
-desktop-gnome/gnome-tour
 desktop-gnome/gnome-tweaks
 desktop-gnome/gnome-usage
 desktop-gnome/gnome-user-docs

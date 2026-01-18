@@ -7,7 +7,6 @@ app-devel/sccache
 app-devel/tokei
 app-doc/tealdeer
 app-games/0ad
-desktop-gnome/gnome-tour
 app-i18n/rime-schema-manager
 app-i18n/ydcv-rs
 lang-java/icedtea-web
