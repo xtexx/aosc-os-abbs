@@ -1,0 +1,28 @@
+From 3fb3d7df142e5813e05eeb4fcaf38284e611a716 Mon Sep 17 00:00:00 2001
+From: Mingcong Bai <jeffbai@aosc.io>
+Date: Mon, 19 Jan 2026 09:24:27 +0800
+Subject: [PATCH 2/2] AOSCOS: fix(autogen.sh): drop -unknown version suffix
+
+Signed-off-by: Mingcong Bai <jeffbai@aosc.io>
+---
+ autogen.sh | 4 ++--
+ 1 file changed, 2 insertions(+), 2 deletions(-)
+
+diff --git a/autogen.sh b/autogen.sh
+index 9f912972..daa2730b 100755
+--- a/autogen.sh
++++ b/autogen.sh
+@@ -270,8 +270,8 @@ if [ "$myhost" = "find-version" ]; then
+       rvd=$((0x$(echo ${rev} | dd bs=1 count=4 2>/dev/null)))
+     else
+       ingit=no
+-      beta=yes
+-      tmp="-unknown"
++      beta=no
++      tmp=""
+       cid="0000000"
+       rev="0000000"
+       rvd="0"
+-- 
+2.52.0
+
