@@ -1,4 +1,4 @@
-VER=0.12.11
+VER=0.14.4
 SRCS="tbl::https://download.gnome.org/sources/gupnp-av/${VER:0:4}/gupnp-av-$VER.tar.xz"
-CHKSUMS="sha256::689dcf1492ab8991daea291365a32548a77d1a2294d85b33622b55cca9ce6fdc"
+CHKSUMS="sha256::21d974b3275cb5dcf5b8aa1d9a3fc80e7edca706935f6fbd004c79787138f8c7"
 CHKUPDATE="anitya::id=1282"
