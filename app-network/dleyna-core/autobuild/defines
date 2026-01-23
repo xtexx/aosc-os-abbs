@@ -1,4 +1,0 @@
-PKGNAME=dleyna-core
-PKGSEC=net
-PKGDEP="gupnp"
-PKGDES="Library of utility functions that are used by the higher level dLeyna"
