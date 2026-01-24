@@ -93,7 +93,7 @@ PKGBREAK="acbs<=2:20251231 accerciser<=3.40.0-1 acme<=5.1.0 \
 	byobu<=6.13 cachecontrol<=0.14.0 cachetools<=3.1.0-5 cachy<=0.3.0-3 \
 	cairocffi<=1.0.2-4 cairosvg<=2.8.2 calibre<=8.15.0 \
 	calver<=2022.06.26-1 cantor<=23.08.5-1 capstone<=5.0.3 \
-	caribou<=0.4.21-5 carla<=1:2.5.8-2 catch2<=3.8.1-1 catfish<=4.20.1 \
+	caribou<=0.4.21-5 carla<=1:2.5.10 catch2<=3.8.1-1 catfish<=4.20.1 \
 	catkin-pkg<=1.1.0 cchardet<=2.1.7 cerberus<=1.3.2-2 \
 	certbot-apache<=5.1.0 certbot-dns-cloudflare<=5.1.0 \
 	certbot-nginx<=5.1.0 certbot<=5.1.0 certifi<=2024.7.4 cffi<=2.0.0-1 \
@@ -118,7 +118,7 @@ PKGBREAK="acbs<=2:20251231 accerciser<=3.40.0-1 acme<=5.1.0 \
 	contextlib2<=21.6.0 convertall<=0.7.5 coolercontrol<=3.0.2 \
 	cppheaderparser<=2.7.4 cppy<=1.3.1 cracklib<=2.10.3 crashtest<=0.4.1-1 \
 	criu<=4.1.1 crun<=1.26 cryptography<=46.0.2 css-parser<=1.0.6-3 \
-	cssselect2<=0.6.0 cuda<=13.1.0+590.44.01 curtail<=1.12.0-1 \
+	cssselect2<=0.6.0 cuda<=13.1.1+590.48.01 curtail<=1.12.0-1 \
 	cutter<=2.4.1-2 cwiid<=1:0.6.00+git20100221-1 cycler<=0.12.1 \
 	cymruwhois<=1.6-3 cython<=3.2.3 damo<=2.4.7 dasbus<=1.7 \
 	dateutil<=2.8.2-1 dbus-deviation<=0.6.1-3 dbus-python<=1.3.2 \
@@ -152,7 +152,7 @@ PKGBREAK="acbs<=2:20251231 accerciser<=3.40.0-1 acme<=5.1.0 \
 	flask-login<=0.6.3 flask-mail<=0.10.0 flask-wtf<=1.2.2-1 \
 	flask<=1:3.0.3 flatbuffers<=25.2.10 flatten-dict<=0.4.2 flent<=2.2.0 \
 	flit-core<=3.12.0 flit-scm<=1.7.0-1 flit<=3.12.0 flufl-lock<=9.0.0 \
-	fontforge<=20251009 fonttools<=4.53.1 foolscap<=0.13.2-2 \
+	fontforge<=20251009-1 fonttools<=4.53.1 foolscap<=0.13.2-2 \
 	freecad<=1.0.2 frescobaldi<=3.3.0 frozenlist<=1.8.0 fsspec<=2025.12.0 \
 	ftputil<=5.1.0 funcy<=2.0 fuse-python<=1.0.9 future<=1.0.0 \
 	fuzzywuzzy<=0.18.0-2 fwupd-efi<=1.8 fwupd<=2.0.19 gast<=0.6.0 \
@@ -204,10 +204,10 @@ PKGBREAK="acbs<=2:20251231 accerciser<=3.40.0-1 acme<=5.1.0 \
 	libgit2-glib<=1.2.1 libglvnd<=1.7.0-1 \
 	libgnt<=2.14.3-1 libguestfs<=1.54.1-3 libibus<=1.5.25-1 \
 	libieee1284<=0.2.11-3 libimobiledevice<=1.4.0 libjxl<=0.11.1-2 \
-	libkkc-data<=0.2.7-5 libkrunfw<=4.10.0 liblouis<=3.12.0-4 \
+	libkkc-data<=0.2.7-5 libkrunfw<=4.10.0 liblouis<=3.36.0 \
 	libmsym<=0.2.3-1 libnvme<=1.16-1 liborcus<=1:0.20.2 libpeas-2<=2.2.0 \
 	libpfm<=4.13.0 libplist<=2.7.0 libpst<=0.6.76+git20250122 \
-	libpwquality<=1.4.5 libratbag<=0.18-1 libreoffice<=25.8.0.4-1 \
+	libpwquality<=1.4.5 libratbag<=0.18-1 libreoffice<=25.8.4.2-1 \
 	libsignon-glib<=2.1-5 libsigrok<=0.5.2+git20241021 \
 	libsigrokdecode<=0.5.3-4 libsixel<=1.8.7 libsmbios<=2.4.3-2 \
 	libsoup-3<=3.6.5 libsoup<=2.74.2-2 libstoragemgmt<=1.10.2 \
