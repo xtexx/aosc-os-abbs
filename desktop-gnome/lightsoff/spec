@@ -1,4 +1,0 @@
-VER=40.0.1
-SRCS="https://download.gnome.org/sources/lightsoff/${VER%%.*}/lightsoff-$VER.tar.xz"
-CHKSUMS="sha256::acd38d4706f11c6cbb18a1afae77637afbf481d02e0eebfe407595f088f1f1ab"
-CHKUPDATE="anitya::id=228582"
