@@ -83,7 +83,6 @@ desktop-gnome/orca
 desktop-gnome/gdm
 runtime-editors/gtksourceview-4
 runtime-editors/tepl
-desktop-gnome/sysprof
 desktop-gnome/gtk-4
 desktop-gnome/gjs
 runtime-desktop/libwnck-3

@@ -12,7 +12,6 @@ desktop-gnome/gnome-desktop
 app-admin/colord
 desktop-gnome/gtk-3
 runtime-common/json-glib
-desktop-gnome/sysprof
 runtime-web/libcloudproviders
 desktop-gnome/gtk-2
 runtime-multimedia/gstreamer-1-0

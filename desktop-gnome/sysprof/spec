@@ -1,4 +1,0 @@
-VER=49.0
-SRCS="https://download.gnome.org/sources/sysprof/${VER:0:2}/sysprof-$VER.tar.xz"
-CHKSUMS="sha256::ff04139637785c841948862087a4323b981680d942296409321b574fcb282878"
-CHKUPDATE="anitya::id=21649"
