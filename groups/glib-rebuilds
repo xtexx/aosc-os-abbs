@@ -65,7 +65,6 @@ desktop-gnome/libgee
 runtime-vcs/libgit2-glib
 desktop-gnome/libgnome-keyring
 runtime-virtualization/libgovirt
-desktop-gnome/libgrss
 desktop-gnome/libgtop
 runtime-admin/libgudev
 runtime-virtualization/libguestfs
