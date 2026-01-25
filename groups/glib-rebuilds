@@ -95,7 +95,6 @@ runtime-devices/libwacom
 desktop-xfce/libxfce4util
 runtime-display/libxklavier
 runtime-common/libxmlb
-desktop-gnome/libzeitgeist
 app-creativity/lmms
 runtime-web/loudmouth
 app-games/lutris
