@@ -2,7 +2,7 @@ PKGNAME=libadwaita
 PKGSEC=gnome
 PKGDEP="appstream fribidi glib glibc graphene gtk-4 pango"
 BUILDDEP="gi-docgen gobject-introspection sassc vala"
-PKGDES="Common API and runtime library for GNOME applications"
+PKGDES="Widgets and objects to build GNOME applications"
 
 MESON_AFTER=(
     '-Dprofiling=false'
@@ -10,5 +10,5 @@ MESON_AFTER=(
     '-Dvapi=true'
     '-Ddocumentation=false'
     '-Dtests=false'
-    '-Dexamples=true'
+    '-Dexamples=false'
 )
