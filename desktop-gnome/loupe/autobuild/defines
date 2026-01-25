@@ -1,8 +1,15 @@
 PKGNAME=loupe
 PKGSEC=gnome
-PKGDEP="cairo dconf fontconfig gcc-runtime glib glibc glycin graphene gtk-4 hicolor-icon-theme \
-        lcms2 libadwaita libgweather libseccomp pango gdk-pixbuf gtk-update-icon-cache"
+PKGDEP="cairo dconf fontconfig gcc-runtime glib glibc glycin graphene \
+        gtk-4 hicolor-icon-theme lcms2 libadwaita libgweather libseccomp \
+        pango gdk-pixbuf gtk-update-icon-cache"
 BUILDDEP="itstool rustc llvm inkscape"
-PKGDES="Image Viewer for GNOME"
+PKGDES="Image viewer for GNOME"
 
 USECLANG=1
+
+ABTYPE=meson
+MESON_AFTER=(
+    '-Dprofile=release'
+    '-Dx11=enabled'
+)
