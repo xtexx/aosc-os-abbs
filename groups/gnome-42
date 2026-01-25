@@ -152,7 +152,6 @@ desktop-gnome/gtkmm-3
 runtime-data/unicode-ucd
 desktop-gnome/gucharmap
 desktop-gnome/libgnomekbd
-desktop-gnome/moserial
 desktop-gnome/polari
 desktop-gnome/qgnomeplatform
 desktop-gnome/sushi

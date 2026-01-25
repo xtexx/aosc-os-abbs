@@ -1,5 +1,0 @@
-PKGNAME=moserial
-PKGSEC=gnome
-PKGDEP="gsettings-desktop-schemas gtk-3"
-BUILDDEP="intltool itstool"
-PKGDES="GTK+-based serial terminal"
