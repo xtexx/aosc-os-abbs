@@ -1,5 +1,5 @@
 VER=3.12.0
-REL=6
+REL=7
 SRCS="git::commit=tags/$VER;copy-repo=true::https://gitlab.gnome.org/Archive/libgnome-keyring.git"
 CHKSUMS="SKIP"
 CHKUPDATE="anitya::id=228577"
