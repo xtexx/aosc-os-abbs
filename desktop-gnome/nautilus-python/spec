@@ -1,6 +1,4 @@
-VER=1.2.3
-REL="5"
-_TAG_NAME=NAUTILUS_PYTHON_${VER//./_}  # e.g. NAUTILUS_PYTHON_1_2_3
-SRCS="git::commit=tags/$_TAG_NAME::https://gitlab.gnome.org/GNOME/nautilus-python.git"
+VER=4.1.0
+SRCS="git::commit=tags/$VER::https://gitlab.gnome.org/GNOME/nautilus-python.git"
 CHKSUMS="SKIP"
 CHKUPDATE="anitya::id=228583"

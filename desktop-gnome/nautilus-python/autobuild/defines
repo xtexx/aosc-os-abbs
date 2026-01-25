@@ -1,9 +1,9 @@
 PKGNAME=nautilus-python
-PKGDES="Python bindings for the Nautilus Extension Framework"
 PKGSEC=gnome
 PKGDEP="nautilus python-3 pygobject-3"
-BUILDDEP="gtk-doc gnome-common"
+PKGDES="Python bindings for Nautilus"
 
-ABTYPE=autotools
-
-AUTOTOOLS_AFTER="PYTHON=/usr/bin/python3"
+ABTYPE=meson
+MESON_AFTER=(
+    '-Ddocs=disabled'
+)
