@@ -2,9 +2,9 @@ PKGNAME=webkit2gtk
 PKGSEC=gnome
 PKGDEP="bubblewrap enchant-2 geoclue2 gstreamer gtk-3 gtk-4 hyphen icu \
         libavif libjxl libmanette libnotify libsecret libsoup libwebp libxslt \
-        openjpeg sqlite woff2 xdg-dbus-proxy flite sysprof"
-BUILDDEP="gi-docgen gobject-introspection gperf ruby unifdef"
-PKGDES="A WebKit rendering engine port for GTK"
+        openjpeg sqlite woff2 xdg-dbus-proxy flite"
+BUILDDEP="gobject-introspection gperf ruby unifdef"
+PKGDES="WebKit rendering engine port for GTK"
 
 ABTYPE=self
 CMAKE_AFTER=(
@@ -44,7 +44,8 @@ CMAKE_AFTER=(
     '-DUSE_OPENJPEG=ON'
     '-DUSE_THIN_ARCHIVES=ON'
     '-DUSE_WOFF2=ON'
-    '-DUSE_SYSTEM_SYSPROF_CAPTURE=ON'
+    '-DUSE_SYSTEM_SYSPROF_CAPTURE=OFF'
+    '-DUSE_SKIA=OFF'
 )
 
 CMAKE_AFTER__ARM64=(
@@ -70,6 +71,9 @@ PKGBREAK="gnome-online-accounts<=3.40.0 devhelp<=40.1 \
 
 # FIXME: Insufficient RAM for LTO on all current loongson3 buildbots
 NOLTO__LOONGSON3=1
+
+# FIXME: cannot tail-call: target is not able to optimize the call into a sibling call
+NOLTO__PPC64EL=1
 
 # Note: Extra Provides for Spiral (Debian compatibility).
 PKGPROV="libwebkit2gtk-4.0-37_spiral"
