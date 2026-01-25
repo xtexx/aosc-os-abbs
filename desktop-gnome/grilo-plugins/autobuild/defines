@@ -1,7 +1,7 @@
 PKGNAME=grilo-plugins
 PKGSEC=gnome
-PKGDEP="dleyna-server gom grilo libdmapsharing libgdata libmediaart \
-        lua-5.4 tinysparql localsearch"
+PKGDEP="dleyna gom grilo libdmapsharing libgdata libmediaart lua-5.4 \
+        tinysparql localsearch"
 BUILDDEP="gperf intltool itstool"
 PKGDES="Plugins for Grilo"
 
