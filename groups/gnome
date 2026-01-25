@@ -105,7 +105,6 @@ desktop-gnome/gnome-tweaks
 desktop-gnome/gnome-usage
 desktop-gnome/gnome-user-docs
 desktop-gnome/gnome-weather
-desktop-gnome/libgda
 desktop-gnome/gtranslator
 desktop-gnome/meld
 app-devel/msitools

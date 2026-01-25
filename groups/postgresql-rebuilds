@@ -5,7 +5,6 @@ app-productivity/libreoffice
 app-utils/sysbench
 app-web/dovecot
 app-web/postfix
-desktop-gnome/libgda
 desktop-trinity/amarok-trinity
 desktop-trinity/tqt3
 lang-python/psycopg2
