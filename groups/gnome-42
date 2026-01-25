@@ -53,7 +53,6 @@ runtime-display/pixman
 runtime-imaging/cairo
 app-admin/bubblewrap
 runtime-web/webkit2gtk
-desktop-gnome/libdazzle
 desktop-gnome/epiphany
 desktop-gnome/gexiv2
 desktop-gnome/gnome-autoar
