@@ -1,17 +1,18 @@
 PKGNAME=cinnamon-settings-daemon
 PKGSEC=Cinnamon
-PKGDEP="cairo cinnamon-desktop colord dbus-glib fontconfig gdk-pixbuf gtk-3 \
-        libibus libcanberra librsvg nss upower libnotify libgnomekbd \
-        libwacom cups systemd lcms2 nspr pango polkit pulseaudio systemd \
-        x11-lib libxklavier libgudev"
-BUILDDEP="gnome-common intltool"
-PKGDES="The Cinnamon Settings Daemon"
+PKGDEP="cinnamon-desktop colord cups fontconfig gtk-3 lcms2 libcanberra \
+        libnotify librsvg libwacom nss polkit systemd upower"
+PKGDES="Settings daemon for Cinnamon"
 
-MESON_AFTER="-Duse_polkit=enabled \
-             -Duse_logind=enabled \
-             -Duse_gudev=enabled \
-             -Duse_cups=enabled \
-             -Duse_smartcard=enabled \
-             -Duse_color=enabled \
-             -Duse_wacom=enabled \
-             -Denable_debug=false"
+ABTYPE=meson
+MESON_AFTER=(
+    '-Duse_polkit=enabled'
+    '-Duse_logind=enabled'
+    '-Duse_gudev=enabled'
+    '-Duse_cups=enabled'
+    '-Duse_smartcard=enabled'
+    '-Duse_color=enabled'
+    '-Duse_wacom=enabled'
+    '-Denable_debug=false'
+    '-Dgenerate_tz_coords=false'
+)
