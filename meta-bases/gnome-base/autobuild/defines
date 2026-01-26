@@ -1,18 +1,17 @@
 PKGNAME=gnome-base
 PKGSEC=Bases
-PKGDEP="desktop-base gdm gnome-backgrounds gnome-control-center \
-        gnome-power-manager gnome-screenshot gnome-shell nautilus"
-PKGRECOM="baobab brasero celluloid chrome-gnome-shell desktop-base eog \
-          evince file-roller gedit gnome-characters gnome-clocks \
-          gnome-contacts gnome-disk-utility gnome-font-viewer \
-          gnome-getting-started-docs gnome-initial-setup gnome-logs \
-          gnome-maps gnome-packagekit gnome-power-manager \
-          gnome-shell-extensions gnome-sound-recorder \
-          gnome-system-monitor gnome-terminal gnome-tweaks gnome-user-docs \
-          gnome-weather nautilus polari simple-scan"
-PKGDES="Meta package for GNOME desktop environment"
+PKGDEP="gdm gnome-backgrounds gnome-shell gnome-control-center \
+        gnome-power-manager nautilus desktop-base xdg-user-dirs-gtk \
+        gnome-session adwaita-fonts"
+PKGRECOM="baobab brasero file-roller gnome-shell-extensions \
+          gnome-system-monitor gnome-terminal gnome-text-editor \
+          gnome-tweaks loupe papers simple-scan nemo"
+PKGDES="Meta package for GNOME"
 
 VER_NONE=1
 ABHOST=noarch
+
 PKGBREAK="gnome-meta<=0-3"
 PKGREP="gnome-meta<=0-3"
+
+ABTYPE=dummy
