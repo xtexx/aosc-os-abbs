@@ -1,0 +1,4 @@
+VER=49.1
+SRCS="https://download.gnome.org/sources/gnome-text-editor/${VER%.*}/gnome-text-editor-$VER.tar.xz"
+CHKSUMS="sha256::f0448f247bb5979a50c60222c44c4511880ad474e25495765e5ed2246e54dbb1"
+CHKUPDATE="anitya::id=241975"

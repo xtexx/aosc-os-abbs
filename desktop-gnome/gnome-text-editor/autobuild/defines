@@ -1,0 +1,11 @@
+PKGNAME=gnome-text-editor
+PKGSEC=gnome
+PKGDEP="editorconfig-core-c gtk-4 gtksourceview-5 libadwaita libspelling"
+BUILDDEP="itstool"
+PKGDES="Text editor for GNOME"
+
+ABTYPE=meson
+MESON_AFTER=(
+    '-Ddevelopment=false'
+    '-Deditorconfig=enabled'
+)
