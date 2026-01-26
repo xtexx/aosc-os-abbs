@@ -133,7 +133,6 @@ runtime-common/glib-networking
 runtime-common/glib-static
 desktop-cinnamon/cinnamon
 desktop-gnome/accerciser
-desktop-gnome/adwaita-qt
 desktop-gnome/alacarte
 desktop-gnome/atk
 desktop-gnome/brasero
