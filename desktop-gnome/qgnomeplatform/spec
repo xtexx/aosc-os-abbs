@@ -1,4 +1,0 @@
-VER=0.8.4
-SRCS="tbl::https://github.com/MartinBriza/QGnomePlatform/archive/$VER.tar.gz"
-CHKSUMS="sha256::c648331f47b095d90594fc986a6c0bc885b846e0e9f5c10b6a1ba6a58d004686"
-CHKUPDATE="anitya::id=9611"
