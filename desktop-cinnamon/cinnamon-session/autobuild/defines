@@ -1,5 +1,11 @@
 PKGNAME=cinnamon-session
 PKGSEC=Cinnamon
-PKGDEP="cinnamon-desktop dbus-glib gdk-pixbuf libcanberra xapps upower"
-BUILDDEP="gnome-common intltool json-glib xmlto"
-PKGDES="Cinnamon session handler"
+PKGDEP="cinnamon-desktop gtk-3 libcanberra systemd xapps"
+PKGDES="Session data and handlers for Cinnamon"
+
+ABTYPE=meson
+MESON_AFTER=(
+    '-Dfrequent_warnings=false'
+    '-Dipv6=true'
+    '-Dxtrans=true'
+)
