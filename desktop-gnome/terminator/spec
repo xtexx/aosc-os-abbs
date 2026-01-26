@@ -1,5 +1,4 @@
-VER=2.1.4
-REL="3"
+VER=2.1.5
 SRCS="https://github.com/gnome-terminator/terminator/releases/download/v$VER/terminator-$VER.tar.gz"
-CHKSUMS="sha256::af27b0ece862e61dde71d0827afa4a29a414e44599effe3edeebc52cbdf0c5e8"
+CHKSUMS="sha256::f0219cd8bd3db45d5173d850619145d55f9e864fe2106f6ceb9e736c575d0e03"
 CHKUPDATE="anitya::id=228590"

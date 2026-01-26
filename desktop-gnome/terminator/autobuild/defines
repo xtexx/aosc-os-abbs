@@ -1,10 +1,11 @@
-ABTYPE=python
 PKGNAME=terminator
-PKGDES="Terminal emulator that supports tabs and grids"
 PKGSEC=x11
 PKGDEP="dbus-python keybinder-3.0 libnotify pycairo pygobject-3 pypsutil \
         vte xdg-utils pypsutil gsettings-desktop-schemas configobj"
 BUILDDEP="gettext desktop-file-utils intltool setuptools-python3"
+PKGDES="Terminal emulator that supports tabs and grids"
 
+ABTYPE=python
 NOPYTHON2=1
+
 ABHOST=noarch
