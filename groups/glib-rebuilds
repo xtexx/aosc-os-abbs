@@ -84,7 +84,6 @@ runtime-i18n/libpinyin
 runtime-common/libplist
 runtime-desktop/libportal
 runtime-scientific/libqalculate
-runtime-multimedia/libquvi
 runtime-desktop/libsecret
 runtime-electronics/libsigrok
 runtime-electronics/libsigrokdecode

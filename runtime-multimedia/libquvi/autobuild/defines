@@ -1,6 +1,0 @@
-PKGNAME=libquvi
-PKGSEC=libs
-PKGDEP="libquvi-scripts curl lua libproxy libgcrypt glib"
-PKGDES="Library for parsing video download links"
-
-NOPARALLEL=1
