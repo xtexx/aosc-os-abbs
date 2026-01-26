@@ -1,0 +1,27 @@
+PKGNAME=papers
+PKGSEC=gnome
+PKGDEP="djvulibre gtk-4 libadwaita libspelling libtiff poppler"
+BUILDDEP="blueprint-compiler itstool llvm nautilus rustc"
+PKGDES="Document viewer for GNOME"
+
+ABTYPE=meson
+MESON_AFTER=(
+    '-Dprofile=default'
+    '-Dshell=true'
+    '-Dpreviewer=true'
+    '-Dthumbnailer=true'
+    '-Dnautilus=true'
+    '-Dcomics=enabled'
+    '-Ddjvu=enabled'
+    '-Dpdf=enabled'
+    '-Dtiff=enabled'
+    '-Dtests=false'
+    '-Ddocumentation=false'
+    '-Duser_doc=true'
+    '-Dintrospection=enabled'
+    '-Dsysprof=disabled'
+    '-Dkeyring=enabled'
+    '-Dgtk_unix_print=enabled'
+    '-Dspell_check=enabled'
+    '-Dfile_tests=false'
+)
