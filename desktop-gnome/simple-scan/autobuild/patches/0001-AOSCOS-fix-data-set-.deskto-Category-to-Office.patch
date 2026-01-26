@@ -1,0 +1,23 @@
+From 21623c31d1ddac597c564474abe8feaca891d3b9 Mon Sep 17 00:00:00 2001
+From: Mingcong Bai <jeffbai@aosc.io>
+Date: Mon, 26 Jan 2026 16:21:11 +0800
+Subject: [PATCH] AOSCOS: fix(data): set .deskto Category to Office
+
+Signed-off-by: Mingcong Bai <jeffbai@aosc.io>
+---
+ data/org.gnome.SimpleScan.desktop.in | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+diff --git a/data/org.gnome.SimpleScan.desktop.in b/data/org.gnome.SimpleScan.desktop.in
+index 9096668c..09a56d3e 100644
+--- a/data/org.gnome.SimpleScan.desktop.in
++++ b/data/org.gnome.SimpleScan.desktop.in
+@@ -9,4 +9,4 @@ Icon=org.gnome.SimpleScan
+ Terminal=false
+ Type=Application
+ StartupNotify=true
+-Categories=GNOME;GTK;Graphics;Scanning;
++Categories=Office;GNOME;GTK;
+-- 
+2.52.0
+
