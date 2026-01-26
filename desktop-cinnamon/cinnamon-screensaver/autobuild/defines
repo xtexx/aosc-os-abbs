@@ -1,11 +1,12 @@
 PKGNAME=cinnamon-screensaver
 PKGSEC=Cinnamon
-PKGDEP="at-spi2-core cinnamon-desktop dbus-glib dbus-glib gdk-pixbuf \
-        libgnomekbd xapps python-xapp pypsutil xdotool"
-BUILDDEP="gnome-common intltool"
+PKGDEP="gtk-3 linux-pam xdotool py-setproctitle pypsutil"
 PKGDES="Screensavers designed to integrate well with the Cinnamon desktop"
 
-MESON_AFTER="-Dsetres=false \
-             -Dlocking=true \
-             -Dxinerama=true \
-             -Duse-debian-pam=false"
+ABTYPE=meson
+MESON_AFTER=(
+    '-Dsetres=false'
+    '-Dlocking=true'
+    '-Dxinerama=true'
+    '-Duse-debian-pam=false'
+)
