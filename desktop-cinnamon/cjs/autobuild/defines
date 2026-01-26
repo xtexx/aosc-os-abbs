@@ -1,14 +1,16 @@
 PKGNAME=cjs
 PKGSEC=Cinnamon
-PKGDEP="js-102 cairo gobject-introspection dbus-glib at-spi2-core gtk-3 \
-        gdk-pixbuf harfbuzz pango"
+PKGDEP="js-128 libffi"
+BUILDDEP="gobject-introspection"
 PKGDES="JavaScript bindings for Cinnamon"
 
-MESON_AFTER="-Dcairo=enabled \
-             -Dreadline=enabled \
-             -Dprofiler=disabled \
-             -Dinstalled_tests=false \
-             -Ddtrace=false \
-             -Dsystemtap=false \
-             -Dbsymbolic_functions=true \
-             -Dverbose_logs=false"
+ABTYPE=meson
+MESON_AFTER=(
+    '-Dreadline=enabled'
+    '-Dprofiler=disabled'
+    '-Dinstalled_tests=false'
+    '-Ddtrace=false'
+    '-Dsystemtap=false'
+    '-Dbsymbolic_functions=true'
+    '-Dverbose_logs=false'
+)
