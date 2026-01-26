@@ -152,7 +152,6 @@ runtime-data/unicode-ucd
 desktop-gnome/gucharmap
 desktop-gnome/libgnomekbd
 desktop-gnome/polari
-desktop-gnome/sushi
 desktop-gnome/xdg-desktop-portal-gnome
 desktop-gnome/zenity
 runtime-multimedia/gstreamer

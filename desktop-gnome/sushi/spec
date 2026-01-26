@@ -1,4 +1,0 @@
-VER=42.0
-SRCS="https://download.gnome.org/sources/sushi/${VER%%.*}/sushi-$VER.tar.xz"
-CHKSUMS="sha256::45d8db7af45a79784e7a34588d149ea955c8be44bb82a36e896829405b7c8820"
-CHKUPDATE="anitya::id=10897"
