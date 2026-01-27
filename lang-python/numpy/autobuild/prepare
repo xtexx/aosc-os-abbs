@@ -4,10 +4,10 @@ ln -sv meson.py "$SRCDIR"/vendored-meson/meson/meson
 
 # use lld on applicable platforms
 if bool USECLANG; then
-  if command -v ld.lld; then
-    abinfo "Using ld.lld on this platform."
-    export LDFLAGS="$LDFLAGS -fuse-ld=lld -Wl,--lto-O3"
-  fi
+    if command -v ld.lld; then
+        abinfo "Using ld.lld on this platform."
+        export LDFLAGS="$LDFLAGS -fuse-ld=lld -Wl,--lto-O3"
+    fi
 else
     abinfo "NOT using ld.lld on this platform"
 fi
