@@ -1,6 +1,6 @@
 PKGNAME=seahorse
 PKGSEC=gnome
-PKGDEP="avahi dconf desktop-file-utils gcc-runtime gcr gdk-pixbuf glib glibc \
+PKGDEP="avahi dconf desktop-file-utils gcc-runtime gcr-3 gdk-pixbuf glib \
         gpgme gtk-3 libhandy libpwquality libsecret libsoup-3 openldap"
 BUILDDEP="appstream appstream-glib gobject-introspection intltool vala \
           yelp-tools"
