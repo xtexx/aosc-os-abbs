@@ -5,3 +5,10 @@ BUILDDEP="appstream gobject-introspection blueprint-compiler pandoc"
 PKGDES="Wallpaper manager with multimonitor support"
 
 ABHOST=noarch
+
+# FIXME: ghc is only available on these archs
+FAIL_ARCH="!(amd64|arm64)"
+
+# Note: Inheriting FAIL_ARCH requires removal of noarch flag, treating as
+# architecture-specific.
+ABSPLITDBG=0
