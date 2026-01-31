@@ -7,3 +7,10 @@ PKGRECOM="texlive appstream fira-font"
 PKGDES="Markdown editor with distraction-free mode and support for multi-format export"
 
 ABHOST=noarch
+
+# FIXME: ghc is only available on these archs
+FAIL_ARCH="!(amd64|arm64)"
+
+# Note: Inheriting FAIL_ARCH requires removal of noarch flag, treating as
+# architecture-specific.
+ABSPLITDBG=0
