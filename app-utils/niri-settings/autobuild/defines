@@ -4,4 +4,10 @@ PKGDEP="hicolor-icon-theme niri pyqt6 python-3 qt-6"
 PKGDES="Configuration GUI for Niri Wayland compositor"
 
 ABTYPE=self
-ABHOST=noarch
+
+# FIXME: niri fails to build on loongarch64_nosimd.
+FAIL_ARCH="(loongarch64_nosimd)"
+
+# Note: Inheriting FAIL_ARCH requires removal of noarch flag, treating as
+# architecture-specific.
+ABSPLITDBG=0
