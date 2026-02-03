@@ -157,7 +157,7 @@ PKGBREAK="acbs<=2:20251231 accerciser<=3.40.0-1 acme<=5.1.0 \
 	ftputil<=5.1.0 funcy<=2.0 fuse-python<=1.0.9 future<=1.0.0 \
 	fuzzywuzzy<=0.18.0-2 fwupd-efi<=1.8 fwupd<=2.0.19 gast<=0.6.0 \
 	gaupol<=1.7-3 gbinder-python<=1.3.0 gcr<=3.41.1-2 gdal<=3.12.1 \
-	gdb<=16.3-1 geant4<=11.3.2-2 gearlever<=4.2.1 gedit<=42.2 \
+	gdb<=16.3-1 geant4<=11.3.2-3 gearlever<=4.2.1 gedit<=42.2 \
 	genpac<=3.0.1 gexiv2<=0.14.0 gi-docgen<=2025.4-1 \
 	git-archive-all<=1.23.1-1 git-filter-repo<=2.47.0-1 git-review<=2.5.0 \
 	git<=2.52.0-1 gitg<=41-2 gitui<=0.28.0 glade<=3.40.0 glances<=4.4.0 \
