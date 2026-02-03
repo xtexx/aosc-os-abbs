@@ -4,8 +4,6 @@ PKGDEP="gtk-4 python-3 libhandy libwnck-3 pillow xdg-user-dirs libadwaita"
 BUILDDEP="appstream gobject-introspection blueprint-compiler pandoc"
 PKGDES="Wallpaper manager with multimonitor support"
 
-ABHOST=noarch
-
 # FIXME: ghc is only available on these archs
 FAIL_ARCH="!(amd64|arm64)"
 
