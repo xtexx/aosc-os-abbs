@@ -397,4 +397,4 @@ PKGBREAK="acbs<=2:20251231 accerciser<=3.40.0-1 acme<=5.1.0 \
 	zulip-desktop<=5.12.3"
 
 # Note: Alternative names for Spiral/convenience.
-PKGPROV="python3_spiral python3.10_spiral"
+PKGPROV="python3_spiral python3.14_spiral"
