@@ -1,10 +1,10 @@
 PKGNAME=kubo
 PKGSEC=net
 PKGDEP="glibc fuse"
-BUILDDEP="go git"
+BUILDDEP="go"
 PKGDES="IPFS implementation in Go"
 
-ABSPLITDBG=0
-
+ABTYPE=gomod
+GO_PACKAGES=('cmd/ipfs')
 # FIXME: FTBFS
 FAIL_ARCH="loongarch64"

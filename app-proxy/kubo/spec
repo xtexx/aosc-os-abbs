@@ -1,4 +1,5 @@
-VER=0.38.2
-SRCS="git::commit=tags/v$VER::https://github.com/ipfs/kubo"
-CHKSUMS="SKIP"
+VER=0.39.0
+SRCS="tbl::https://github.com/ipfs/kubo/releases/download/v$VER/kubo-source.tar.gz"
+CHKSUMS="sha256::a86a89d866f4058718ef2c6e9c014382e73c220cc320ff7af34fad2ab285bec6"
 CHKUPDATE="anitya::id=328587"
+SUBDIR="."
