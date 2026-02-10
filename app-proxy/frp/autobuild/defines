@@ -1,6 +1,9 @@
 PKGNAME=frp
 PKGSEC=net
 PKGDEP="glibc"
-BUILDDEP="go nodejs"
+# FIXME:
+# autobuild/build: line 10:   422 Segmentation fault      (core dumped) yarn install
+BUILDDEP="go nodejs-22"
 PKGDES="Fast reverse proxy"
-ABSPLITDBG=0
+
+ABTYPE=self
