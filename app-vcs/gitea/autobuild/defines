@@ -4,3 +4,5 @@ PKGDES="Web-based Git repository hosting service"
 PKGDEP="git linux-pam openssh"
 PKGSUG="mariadb memcached postgresql sqlite"
 BUILDDEP="go nodejs"
+
+ABTYPE=self
