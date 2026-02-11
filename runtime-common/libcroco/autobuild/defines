@@ -1,7 +1,8 @@
 PKGNAME=libcroco
-PKGDES="A standalone CSS parsing and manipulation library"
+PKGDES="Standalone CSS parsing and manipulation library"
 PKGDEP="glib libxml2"
 PKGSEC=libs
 
+ABTYPE=autotools
 ABSHADOW=0
 RECONF=0
