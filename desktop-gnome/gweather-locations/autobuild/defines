@@ -1,0 +1,8 @@
+PKGNAME=gweather-locations
+PKGSEC=gnome
+PKGDEP="pygobject-3"
+BUILDDEP="gettext"
+PKGDES="The GWeather locations database used by GWeather library"
+
+ABTYPE=meson
+ABHOST=noarch

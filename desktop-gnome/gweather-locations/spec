@@ -1,0 +1,4 @@
+VER=2025.1
+SRCS="tbl::https://download.gnome.org/sources/gweather-locations/${VER%.*}/gweather-locations-$VER.tar.xz"
+CHKSUMS="sha256::5609ee04cf6ac4cc7721f3241bd8d69ffebf0f1b60210fadd88c869a4b884d87"
+CHKUPDATE="anitya::id=388061"
