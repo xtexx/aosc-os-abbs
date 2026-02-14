@@ -1,5 +1,4 @@
-VER=0.7.9
-REL=6
+VER=0.8.8
 SRCS="tbl::https://download.gnome.org/sources/libnotify/${VER:0:3}/libnotify-$VER.tar.xz"
-CHKSUMS="sha256::66c0517ed16df7af258e83208faaf5069727dfd66995c4bbc51c16954d674761"
+CHKSUMS="sha256::23420ef619dc2cb5aebad613f4823a2fa41c07e5a1d05628d40f6ec4b35bfddd"
 CHKUPDATE="anitya::id=13149"

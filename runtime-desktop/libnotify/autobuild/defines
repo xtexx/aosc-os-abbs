@@ -1,8 +1,8 @@
 PKGNAME=libnotify
 PKGDES="Desktop notification library"
 PKGSEC=libs
-PKGDEP="gtk-3"
-BUILDDEP="gtk-doc xmlto gobject-introspection gnome-common"
+PKGDEP="gtk-4"
+BUILDDEP="xmlto gobject-introspection gnome-common"
 
 # FIXME: Binary tool split packages not detected in Spiral LUT.
 PKGPROV="libnotify-bin_spiral"
@@ -26,9 +26,18 @@ BUILDDEP__M68K="${BUILDDEP__RETRO}"
 BUILDDEP__POWERPC="${BUILDDEP__RETRO}"
 BUILDDEP__PPC64="${BUILDDEP__RETRO}"
 
-MESON_AFTER__RETRO="-Dintrospection=disabled \
-                    -Dman=false -Dgtk_doc=false \
-                    -Ddocbook_docs=disabled"
+ABTYPE=meson
+MESON_AFTER=(
+    '-Dman=true'
+    '-Dgtk_doc=false'
+    '-Ddocbook_docs=disabled'
+)
+MESON_AFTER__RETRO=(
+    '-Dintrospection=disabled'
+    '-Dman=false'
+    '-Dgtk_doc=false'
+    '-Ddocbook_docs=disabled'
+)
 MESON_AFTER__ARMV4="${MESON_AFTER__RETRO}"
 MESON_AFTER__ARMV6HF="${MESON_AFTER__RETRO}"
 MESON_AFTER__ARMV7HF="${MESON_AFTER__RETRO}"
