@@ -1,5 +1,5 @@
 VER=5.18.0
-REL=1
+REL=2
 SRCS="tbl::https://download.gnome.org/sources/gtksourceview/${VER:0:4}/gtksourceview-$VER.tar.xz"
 CHKSUMS="sha256::051a78fe38f793328047e5bcd6d855c6425c0b480c20d9432179e356742c6ac0"
 CHKUPDATE="html::url=https://download.gnome.org/sources/gtksourceview/${VER%.*}/;pattern=gtksourceview-(.+?).tar.xz"
