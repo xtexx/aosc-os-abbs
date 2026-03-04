@@ -7,4 +7,7 @@ PKGBREAK="libxml++<=2.40.1-2"
 PKGREP="libxml++<=2.40.1-2"
 
 ABTYPE=meson
-MESON_AFTER=("-Dbuild-documentation=false" "-Dbuild-examples=false")
+MESON_AFTER=(
+    "-Dbuild-documentation=false"
+    "-Dbuild-examples=false"
+)
