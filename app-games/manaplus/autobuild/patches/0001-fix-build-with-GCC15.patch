@@ -1,0 +1,50 @@
+diff -aur a/src/net/ea/chatrecv.h b/src/net/ea/chatrecv.h
+--- a/src/net/ea/chatrecv.h
++++ b/src/net/ea/chatrecv.h
+@@ -27,6 +27,8 @@
+ #if defined(__GXX_EXPERIMENTAL_CXX0X__)
+ #if defined(__APPLE__)
+ #include <tr1/cstdint>
++#else  // defined(__APPLE__)
++#include <cstdint>
+ #endif  // defined(__APPLE__)
+ #else  // defined(__GXX_EXPERIMENTAL_CXX0X__)
+ #include <stdint.h>
+diff -aur a/src/net/ea/traderecv.h b/src/net/ea/traderecv.h
+--- a/src/net/ea/traderecv.h
++++ b/src/net/ea/traderecv.h
+@@ -27,6 +27,8 @@
+ #if defined(__GXX_EXPERIMENTAL_CXX0X__)
+ #if defined(__APPLE__)
+ #include <tr1/cstdint>
++#else  // defined(__APPLE__)
++#include <cstdint>
+ #endif  // defined(__APPLE__)
+ #else  // defined(__GXX_EXPERIMENTAL_CXX0X__)
+ #include <stdint.h>
+diff -aur a/src/progs/dyecmd/client.cpp b/src/progs/dyecmd/client.cpp
+--- a/src/progs/dyecmd/client.cpp
++++ b/src/progs/dyecmd/client.cpp
+@@ -88,9 +88,7 @@
+ #undef ERROR
+ #endif  // WIN32
+ 
+-#ifdef __clang__
+ #include <ctime>
+-#endif  // __clang__
+ 
+ #ifdef ANDROID
+ #ifndef USE_SDL2
+diff -aur a/src/resources/wallpaper.cpp b/src/resources/wallpaper.cpp
+--- a/src/resources/wallpaper.cpp
++++ b/src/resources/wallpaper.cpp
+@@ -39,9 +39,7 @@
+ #include <sys/time.h>
+ #endif  // WIN32
+ 
+-#ifdef __clang__
+ #include <ctime>
+-#endif  // __clang__
+ 
+ #include "debug.h"
+ 
