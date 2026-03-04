@@ -6,8 +6,9 @@ PKGDES="Library to query the Operating System information database"
 
 PKGBREAK="gnome-boxes<=3.26.2 virt-manager<=1.4.3 tracker<=2.0.2"
 
+ABTYPE=meson
 MESON_AFTER=(
-    -Denable-gtk-doc=true
+    -Denable-gtk-doc=false
     -Denable-introspection=enabled
     -Denable-vala=enabled
     -Dlibsoup-abi=3.0
