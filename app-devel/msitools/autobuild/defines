@@ -4,4 +4,7 @@ PKGDEP="gcab libgsf libxml2"
 BUILDDEP="gobject-introspection intltool vala"
 PKGDES="Port of Wine's MSI DLL to POSIX"
 
-MESON_AFTER="-Dintrospection=true"
+ABTYPE=meson
+MESON_AFTER=(
+    '-Dintrospection=true'
+)
