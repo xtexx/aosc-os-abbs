@@ -1,4 +1,0 @@
-# Use this with 0001-datastore-upgrade-go-ds-pebble-to-v0.5.8-11129.patch
-# This has been fixed in v0.40.0-rc1
-abinfo "Fixing build error with go1.26 ..."
-go mod vendor

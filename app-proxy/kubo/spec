@@ -1,5 +1,5 @@
-VER=0.39.0
+VER=0.40.1
 SRCS="tbl::https://github.com/ipfs/kubo/releases/download/v$VER/kubo-source.tar.gz"
-CHKSUMS="sha256::a86a89d866f4058718ef2c6e9c014382e73c220cc320ff7af34fad2ab285bec6"
+CHKSUMS="sha256::3ba9921432a3d43753306860e50e8bd2188b5bd094c94abdbb2173f578e69b8b"
 CHKUPDATE="anitya::id=328587"
 SUBDIR="."
