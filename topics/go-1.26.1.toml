@@ -1,0 +1,11 @@
+security = true
+
+[name]
+default = "Go 1.26.1"
+
+[caution]
+default = "5 security vulnerabilities of medium severity"
+zh_CN = "修复 5 个中危安全漏洞"
+
+[packages-v2]
+go = "< 1.26.1+tools0.42.0"
