@@ -1,0 +1,4 @@
+VER=0.17.4+1
+SRCS="git::commit=tags/release/jazzy/ament_cmake_lint_cmake/${VER/+/-}::https://github.com/ros2-gbp/ament_lint-release.git"
+CHKSUMS="SKIP"
+CHKUPDATE="github::repo=ros2-gbp/ament_lint-release;pattern=release/jazzy/ament_cmake_lint_cmake/.*"

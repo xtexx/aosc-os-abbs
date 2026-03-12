@@ -1,0 +1,14 @@
+PKGNAME=ros-jazzy-ament-cmake-lint-cmake
+PKGSEC=ros
+PKGDEP="ros-jazzy-ros-workspace ros-jazzy-ament-cmake-test ros-jazzy-ament-lint-cmake"
+BUILDDEP="ros-jazzy-ament-cmake-core ros-jazzy-ament-cmake-test ros-jazzy-ament-lint-cmake"
+PKGDES="CMake API for ament_lint_cmake to lint CMake files with cmakelint"
+
+ABTYPE=cmakeninja
+PREFIX="/opt/ros/jazzy"
+ABSPLITDBG=0
+NOSTATIC=0
+CMAKE_AFTER=(
+    "-DCMAKE_PREFIX_PATH=/opt/ros/jazzy"
+    "-DBUILD_TESTING=OFF"
+)
