@@ -1,0 +1,4 @@
+VER=9.0.1+1
+SRCS="git::commit=tags/release/jazzy/yaml_cpp_vendor/${VER/+/-}::https://github.com/ros2-gbp/yaml_cpp_vendor-release.git"
+CHKSUMS="SKIP"
+CHKUPDATE="github::repo=ros2-gbp/yaml_cpp_vendor-release;pattern=release/jazzy/yaml_cpp_vendor/.*"
