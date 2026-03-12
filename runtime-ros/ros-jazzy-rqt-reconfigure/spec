@@ -1,0 +1,4 @@
+VER=1.6.3+1
+SRCS="git::commit=tags/release/jazzy/rqt_reconfigure/${VER/+/-}::https://github.com/ros2-gbp/rqt_reconfigure-release.git"
+CHKSUMS="SKIP"
+CHKUPDATE="github::repo=ros2-gbp/rqt_reconfigure-release;pattern=release/jazzy/rqt_reconfigure/.*"
