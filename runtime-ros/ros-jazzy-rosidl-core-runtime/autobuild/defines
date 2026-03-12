@@ -1,0 +1,14 @@
+PKGNAME=ros-jazzy-rosidl-core-runtime
+PKGSEC=ros
+PKGDEP="ros-jazzy-ros-workspace ros-jazzy-rosidl-runtime-c ros-jazzy-rosidl-runtime-cpp ros-jazzy-rosidl-generator-py ros-jazzy-rosidl-typesupport-c ros-jazzy-rosidl-typesupport-fastrtps-c ros-jazzy-rosidl-typesupport-introspection-c ros-jazzy-rosidl-typesupport-cpp ros-jazzy-rosidl-typesupport-fastrtps-cpp ros-jazzy-rosidl-typesupport-introspection-cpp"
+BUILDDEP="ros-jazzy-ament-cmake ros-jazzy-ament-lint-auto ros-jazzy-ament-lint-common"
+PKGDES="Definition for runtime dependencies for core ROS 2 interfaces"
+
+ABTYPE=cmakeninja
+PREFIX="/opt/ros/jazzy"
+ABSPLITDBG=0
+NOSTATIC=0
+CMAKE_AFTER=(
+    "-DCMAKE_PREFIX_PATH=/opt/ros/jazzy"
+    "-DBUILD_TESTING=OFF"
+)

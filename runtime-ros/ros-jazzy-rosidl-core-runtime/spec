@@ -1,0 +1,4 @@
+VER=0.2.1+1
+SRCS="git::commit=tags/release/jazzy/rosidl_core_runtime/${VER/+/-}::https://github.com/ros2-gbp/rosidl_core-release.git"
+CHKSUMS="SKIP"
+CHKUPDATE="github::repo=ros2-gbp/rosidl_core-release;pattern=release/jazzy/rosidl_core_runtime/.*"
