@@ -1,0 +1,4 @@
+VER=0.9.2+1
+SRCS="git::commit=tags/release/jazzy/tinyxml2_vendor/${VER/+/-}::https://github.com/ros2-gbp/tinyxml2_vendor-release.git"
+CHKSUMS="SKIP"
+CHKUPDATE="github::repo=ros2-gbp/tinyxml2_vendor-release;pattern=release/jazzy/tinyxml2_vendor/.*"
