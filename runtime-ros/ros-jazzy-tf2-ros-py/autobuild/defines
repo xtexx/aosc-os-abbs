@@ -1,0 +1,11 @@
+PKGNAME=ros-jazzy-tf2-ros-py
+PKGSEC=ros
+PKGDEP="ros-jazzy-ros-workspace ros-jazzy-builtin-interfaces ros-jazzy-geometry-msgs ros-jazzy-rclpy ros-jazzy-sensor-msgs ros-jazzy-std-msgs ros-jazzy-tf2-msgs ros-jazzy-tf2-py"
+BUILDDEP="pytest"
+PKGDES="ROS 2 Python bindings for tf2"
+
+ABTYPE=python
+PREFIX="/opt/ros/jazzy"
+ABSPLITDBG=0
+NOPYTHON2=1
+ABHOST=noarch
