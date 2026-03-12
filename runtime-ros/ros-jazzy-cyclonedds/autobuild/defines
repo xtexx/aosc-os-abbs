@@ -1,0 +1,14 @@
+PKGNAME=ros-jazzy-cyclonedds
+PKGSEC=ros
+PKGDEP="ros-jazzy-ros-workspace ros-jazzy-iceoryx-binding-c ros-jazzy-iceoryx-posh ros-jazzy-iceoryx-hoofs openssl"
+BUILDDEP="cmake"
+PKGDES="ROS library to implement Data Distribution Service (ROS)"
+
+ABTYPE=cmakeninja
+PREFIX="/opt/ros/jazzy"
+ABSPLITDBG=0
+NOSTATIC=0
+CMAKE_AFTER=(
+    "-DCMAKE_PREFIX_PATH=/opt/ros/jazzy"
+    "-DBUILD_TESTING=OFF"
+)
