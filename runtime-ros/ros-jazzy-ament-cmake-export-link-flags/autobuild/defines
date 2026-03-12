@@ -1,0 +1,14 @@
+PKGNAME=ros-jazzy-ament-cmake-export-link-flags
+PKGSEC=ros
+PKGDEP="ros-jazzy-ros-workspace ros-jazzy-ament-cmake-core"
+BUILDDEP="ros-jazzy-ament-cmake-core"
+PKGDES="CMake API to help export link flags to downstream packages in the ament buildsystem"
+
+ABTYPE=cmakeninja
+PREFIX="/opt/ros/jazzy"
+ABSPLITDBG=0
+NOSTATIC=0
+CMAKE_AFTER=(
+    "-DCMAKE_PREFIX_PATH=/opt/ros/jazzy"
+    "-DBUILD_TESTING=OFF"
+)
