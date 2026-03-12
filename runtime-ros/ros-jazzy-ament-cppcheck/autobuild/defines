@@ -1,0 +1,11 @@
+PKGNAME=ros-jazzy-ament-cppcheck
+PKGSEC=ros
+PKGDEP="ros-jazzy-ros-workspace cppcheck"
+BUILDDEP="ros-jazzy-ament-copyright ros-jazzy-ament-flake8 ros-jazzy-ament-pep257 ros-jazzy-ament-pycodestyle pytest"
+PKGDES="CMake API to perform static code analysis on C/C++ code with Cppcheck"
+
+ABTYPE=python
+PREFIX="/opt/ros/jazzy"
+ABSPLITDBG=0
+NOPYTHON2=1
+ABHOST=noarch
