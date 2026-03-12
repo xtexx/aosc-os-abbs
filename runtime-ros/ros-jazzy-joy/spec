@@ -1,0 +1,4 @@
+VER=3.3.0+3
+SRCS="git::commit=tags/release/jazzy/joy/${VER/+/-}::https://github.com/ros2-gbp/joystick_drivers-release.git"
+CHKSUMS="SKIP"
+CHKUPDATE="github::repo=ros2-gbp/joystick_drivers-release;pattern=release/jazzy/joy/.*"
