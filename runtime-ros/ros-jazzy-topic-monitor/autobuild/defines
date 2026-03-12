@@ -1,0 +1,11 @@
+PKGNAME=ros-jazzy-topic-monitor
+PKGSEC=ros
+PKGDEP="ros-jazzy-ros-workspace ros-jazzy-launch ros-jazzy-launch-ros ros-jazzy-rclpy ros-jazzy-std-msgs"
+BUILDDEP="ros-jazzy-ament-flake8 ros-jazzy-ament-pep257 pytest"
+PKGDES="Topic monitor for ROS 2"
+
+ABTYPE=python
+PREFIX="/opt/ros/jazzy"
+ABSPLITDBG=0
+NOPYTHON2=1
+ABHOST=noarch
