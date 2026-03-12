@@ -1,0 +1,4 @@
+VER=0.19.7+1
+SRCS="git::commit=tags/release/jazzy/examples_rclpy_minimal_service/${VER/+/-}::https://github.com/ros2-gbp/examples-release.git"
+CHKSUMS="SKIP"
+CHKUPDATE="github::repo=ros2-gbp/examples-release;pattern=release/jazzy/examples_rclpy_minimal_service/.*"

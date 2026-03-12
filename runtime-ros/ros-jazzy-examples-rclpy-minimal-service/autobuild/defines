@@ -1,0 +1,11 @@
+PKGNAME=ros-jazzy-examples-rclpy-minimal-service
+PKGSEC=ros
+PKGDEP="ros-jazzy-ros-workspace ros-jazzy-example-interfaces ros-jazzy-rclpy ros-jazzy-std-msgs"
+BUILDDEP="ros-jazzy-ament-copyright ros-jazzy-ament-flake8 ros-jazzy-ament-pep257 pytest"
+PKGDES="Minimal rclpy service servers examples for ROS 2"
+
+ABTYPE=python
+PREFIX="/opt/ros/jazzy"
+ABSPLITDBG=0
+NOPYTHON2=1
+ABHOST=noarch
