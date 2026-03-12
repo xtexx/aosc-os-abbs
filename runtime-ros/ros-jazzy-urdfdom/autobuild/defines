@@ -1,0 +1,14 @@
+PKGNAME=ros-jazzy-urdfdom
+PKGSEC=ros
+PKGDEP="ros-jazzy-ros-workspace ros-jazzy-console-bridge-vendor console-bridge tinyxml2 ros-jazzy-tinyxml2-vendor ros-jazzy-urdfdom-headers"
+BUILDDEP="cmake python-3"
+PKGDES="ROS 2 library to access URDFs with DOM model"
+
+ABTYPE=cmakeninja
+PREFIX="/opt/ros/jazzy"
+ABSPLITDBG=0
+NOSTATIC=0
+CMAKE_AFTER=(
+    "-DCMAKE_PREFIX_PATH=/opt/ros/jazzy"
+    "-DBUILD_TESTING=OFF"
+)

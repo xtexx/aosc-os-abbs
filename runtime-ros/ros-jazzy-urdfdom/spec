@@ -1,0 +1,4 @@
+VER=4.0.2+1
+SRCS="git::commit=tags/release/jazzy/urdfdom/${VER/+/-}::https://github.com/ros2-gbp/urdfdom-release.git"
+CHKSUMS="SKIP"
+CHKUPDATE="github::repo=ros2-gbp/urdfdom-release;pattern=release/jazzy/urdfdom/.*"
