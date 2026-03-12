@@ -1,0 +1,4 @@
+VER=1.2.3+1
+SRCS="git::commit=tags/release/jazzy/rqt_shell/${VER/+/-}::https://github.com/ros2-gbp/rqt_shell-release.git"
+CHKSUMS="SKIP"
+CHKUPDATE="github::repo=ros2-gbp/rqt_shell-release;pattern=release/jazzy/rqt_shell/.*"
