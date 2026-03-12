@@ -1,0 +1,14 @@
+PKGNAME=ros-jazzy-fastrtps
+PKGSEC=ros
+PKGDEP="ros-jazzy-ros-workspace ros-jazzy-fastcdr ros-jazzy-foonathan-memory-vendor openssl tinyxml2 python-3"
+BUILDDEP="cmake asio"
+PKGDES="C++ implementation of the Data Distribution Service (DDS) standard (formerly FastRTPS) for ROS 2"
+
+ABTYPE=cmakeninja
+PREFIX="/opt/ros/jazzy"
+ABSPLITDBG=0
+NOSTATIC=0
+CMAKE_AFTER=(
+    "-DCMAKE_PREFIX_PATH=/opt/ros/jazzy"
+    "-DBUILD_TESTING=OFF"
+)

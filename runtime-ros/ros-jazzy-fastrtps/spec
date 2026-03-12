@@ -1,0 +1,4 @@
+VER=2.14.6+1
+SRCS="git::commit=tags/release/jazzy/fastrtps/${VER/+/-}::https://github.com/ros2-gbp/fastdds-release.git"
+CHKSUMS="SKIP"
+CHKUPDATE="github::repo=ros2-gbp/fastdds-release;pattern=release/jazzy/fastrtps/.*"
