@@ -1,0 +1,4 @@
+VER=7.3.3+1
+SRCS="git::commit=tags/release/jazzy/rmw/${VER/+/-}::https://github.com/ros2-gbp/rmw-release.git"
+CHKSUMS="SKIP"
+CHKUPDATE="github::repo=ros2-gbp/rmw-release;pattern=release/jazzy/rmw/.*"
