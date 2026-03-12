@@ -1,0 +1,14 @@
+PKGNAME=ros-jazzy-rosidl-adapter
+PKGSEC=ros
+PKGDEP="ros-jazzy-ros-workspace empy ros-jazzy-rosidl-cli ros-jazzy-ament-cmake-core python-3"
+BUILDDEP="ros-jazzy-ament-cmake ros-jazzy-ament-cmake-pytest ros-jazzy-ament-lint-common ros-jazzy-ament-lint-auto"
+PKGDES="ROS 2 API and scripts to parse .msg/.srv/.action files and convert to .idl"
+
+ABTYPE=cmakeninja
+PREFIX="/opt/ros/jazzy"
+ABSPLITDBG=0
+NOSTATIC=0
+CMAKE_AFTER=(
+    "-DCMAKE_PREFIX_PATH=/opt/ros/jazzy"
+    "-DBUILD_TESTING=OFF"
+)
