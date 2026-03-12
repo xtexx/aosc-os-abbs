@@ -1,0 +1,14 @@
+PKGNAME=ros-jazzy-ament-cmake-test
+PKGSEC=ros
+PKGDEP="ros-jazzy-ros-workspace ros-jazzy-ament-cmake-core"
+BUILDDEP="ros-jazzy-ament-cmake-core ros-jazzy-ament-cmake-python"
+PKGDES="CMake API to implement tests in the ament buildsystem"
+
+ABTYPE=cmakeninja
+PREFIX="/opt/ros/jazzy"
+ABSPLITDBG=0
+NOSTATIC=0
+CMAKE_AFTER=(
+    "-DCMAKE_PREFIX_PATH=/opt/ros/jazzy"
+    "-DBUILD_TESTING=OFF"
+)
