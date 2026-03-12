@@ -1,0 +1,11 @@
+PKGNAME=ros-jazzy-ros2interface
+PKGSEC=ros
+PKGDEP="ros-jazzy-ros-workspace ros-jazzy-ament-index-python ros-jazzy-ros2cli ros-jazzy-rosidl-adapter ros-jazzy-rosidl-runtime-py"
+BUILDDEP="ros-jazzy-ament-copyright ros-jazzy-ament-flake8 ros-jazzy-ament-pep257 ros-jazzy-ament-xmllint ros-jazzy-launch ros-jazzy-launch-testing ros-jazzy-launch-testing-ros pytest pytest-timeout ros-jazzy-ros2cli-test-interfaces ros-jazzy-test-msgs"
+PKGDES="The interface command for ROS 2 CLI"
+
+ABTYPE=python
+PREFIX="/opt/ros/jazzy"
+ABSPLITDBG=0
+NOPYTHON2=1
+ABHOST=noarch
