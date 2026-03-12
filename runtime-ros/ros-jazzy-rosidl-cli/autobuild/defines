@@ -1,0 +1,11 @@
+PKGNAME=ros-jazzy-rosidl-cli
+PKGSEC=ros
+PKGDEP="ros-jazzy-ros-workspace argcomplete"
+BUILDDEP="ros-jazzy-ament-copyright ros-jazzy-ament-flake8 ros-jazzy-ament-pep257 ros-jazzy-ament-xmllint pytest"
+PKGDES="Command line tools for ROS 2 interface generation"
+
+ABTYPE=python
+PREFIX="/opt/ros/jazzy"
+ABSPLITDBG=0
+NOPYTHON2=1
+ABHOST=noarch
