@@ -1,0 +1,14 @@
+PKGNAME=ros-jazzy-rosbag2
+PKGSEC=ros
+PKGDEP="ros-jazzy-ros-workspace ros-jazzy-ros2bag ros-jazzy-rosbag2-compression ros-jazzy-rosbag2-cpp ros-jazzy-rosbag2-py ros-jazzy-rosbag2-storage ros-jazzy-rosbag2-transport ros-jazzy-rosbag2-compression-zstd ros-jazzy-rosbag2-storage-default-plugins"
+BUILDDEP="ros-jazzy-ament-cmake ros-jazzy-rosbag2-test-common ros-jazzy-rosbag2-tests"
+PKGDES="Meta package for ROSBag2"
+
+ABTYPE=cmakeninja
+PREFIX="/opt/ros/jazzy"
+ABSPLITDBG=0
+NOSTATIC=0
+CMAKE_AFTER=(
+    "-DCMAKE_PREFIX_PATH=/opt/ros/jazzy"
+    "-DBUILD_TESTING=OFF"
+)
