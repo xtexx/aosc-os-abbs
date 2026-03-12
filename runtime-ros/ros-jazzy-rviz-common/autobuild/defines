@@ -1,0 +1,14 @@
+PKGNAME=ros-jazzy-rviz-common
+PKGSEC=ros
+PKGDEP="ros-jazzy-ros-workspace ros-jazzy-geometry-msgs ros-jazzy-pluginlib ros-jazzy-rclcpp ros-jazzy-resource-retriever ros-jazzy-rviz-ogre-vendor ros-jazzy-rviz-rendering ros-jazzy-sensor-msgs ros-jazzy-std-msgs ros-jazzy-std-srvs ros-jazzy-tf2 ros-jazzy-tf2-ros ros-jazzy-message-filters ros-jazzy-tinyxml2-vendor ros-jazzy-urdf ros-jazzy-yaml-cpp-vendor qt-5"
+BUILDDEP="ros-jazzy-ament-cmake ros-jazzy-ament-cmake-cppcheck ros-jazzy-ament-cmake-cpplint ros-jazzy-ament-cmake-gmock ros-jazzy-ament-cmake-gtest ros-jazzy-ament-cmake-lint-cmake ros-jazzy-ament-cmake-uncrustify ros-jazzy-ament-cmake-xmllint ros-jazzy-ament-lint-auto"
+PKGDES="Common API of RViz plugins and applications"
+
+ABTYPE=cmakeninja
+PREFIX="/opt/ros/jazzy"
+ABSPLITDBG=0
+NOSTATIC=0
+CMAKE_AFTER=(
+    "-DCMAKE_PREFIX_PATH=/opt/ros/jazzy"
+    "-DBUILD_TESTING=OFF"
+)
