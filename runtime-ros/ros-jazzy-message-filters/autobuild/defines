@@ -1,0 +1,14 @@
+PKGNAME=ros-jazzy-message-filters
+PKGSEC=ros
+PKGDEP="ros-jazzy-ros-workspace ros-jazzy-rclcpp ros-jazzy-rcutils ros-jazzy-std-msgs ros-jazzy-builtin-interfaces ros-jazzy-rclpy"
+BUILDDEP="ros-jazzy-ament-cmake-python ros-jazzy-ament-cmake-ros ros-jazzy-python-cmake-module ros-jazzy-ament-lint-auto ros-jazzy-ament-cmake-gtest ros-jazzy-ament-cmake-pytest ros-jazzy-sensor-msgs ros-jazzy-rclcpp-lifecycle"
+PKGDES="ROS 2 message filters"
+
+ABTYPE=cmakeninja
+PREFIX="/opt/ros/jazzy"
+ABSPLITDBG=0
+NOSTATIC=0
+CMAKE_AFTER=(
+    "-DCMAKE_PREFIX_PATH=/opt/ros/jazzy"
+    "-DBUILD_TESTING=OFF"
+)
