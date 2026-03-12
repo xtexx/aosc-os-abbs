@@ -1,0 +1,4 @@
+VER=2.0.3+1
+SRCS="git::commit=tags/release/jazzy/action_msgs/${VER/+/-}::https://github.com/ros2-gbp/rcl_interfaces-release.git"
+CHKSUMS="SKIP"
+CHKUPDATE="github::repo=ros2-gbp/rcl_interfaces-release;pattern=release/jazzy/action_msgs/.*"
