@@ -1,0 +1,4 @@
+VER=0.1.2+3
+SRCS="git::commit=tags/release/jazzy/rosidl_dynamic_typesupport/${VER/+/-}::https://github.com/ros2-gbp/rosidl_dynamic_typesupport-release.git"
+CHKSUMS="SKIP"
+CHKUPDATE="github::repo=ros2-gbp/rosidl_dynamic_typesupport-release;pattern=release/jazzy/rosidl_dynamic_typesupport/.*"

@@ -1,0 +1,14 @@
+PKGNAME=ros-jazzy-rosidl-dynamic-typesupport
+PKGSEC=ros
+PKGDEP="ros-jazzy-ros-workspace ros-jazzy-rcutils ros-jazzy-rosidl-runtime-c"
+BUILDDEP="ros-jazzy-ament-cmake-ros"
+PKGDES="ROS 2 Unified serialization support interface for C dynamic typesupport"
+
+ABTYPE=cmakeninja
+PREFIX="/opt/ros/jazzy"
+ABSPLITDBG=0
+NOSTATIC=0
+CMAKE_AFTER=(
+    "-DCMAKE_PREFIX_PATH=/opt/ros/jazzy"
+    "-DBUILD_TESTING=OFF"
+)
