@@ -1,0 +1,14 @@
+PKGNAME=ros-jazzy-stereo-msgs
+PKGSEC=ros
+PKGDEP="ros-jazzy-ros-workspace ros-jazzy-sensor-msgs ros-jazzy-std-msgs ros-jazzy-rosidl-default-runtime"
+BUILDDEP="ros-jazzy-ament-cmake ros-jazzy-rosidl-default-generators ros-jazzy-ament-lint-common"
+PKGDES="Message and service definitions for using stereo cameras with ROS 2"
+
+ABTYPE=cmakeninja
+PREFIX="/opt/ros/jazzy"
+ABSPLITDBG=0
+NOSTATIC=0
+CMAKE_AFTER=(
+    "-DCMAKE_PREFIX_PATH=/opt/ros/jazzy"
+    "-DBUILD_TESTING=OFF"
+)
