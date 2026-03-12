@@ -1,0 +1,14 @@
+PKGNAME=ros-jazzy-foonathan-memory-vendor
+PKGSEC=ros
+PKGDEP="ros-jazzy-ros-workspace cmake"
+BUILDDEP="git ros-jazzy-ament-cmake-copyright ros-jazzy-ament-cmake-lint-cmake ros-jazzy-ament-cmake-test ros-jazzy-ament-cmake-xmllint"
+PKGDES="ROS 2 wrapped foonathan/memory library for FastRTPS"
+
+ABTYPE=cmakeninja
+PREFIX="/opt/ros/jazzy"
+ABSPLITDBG=0
+NOSTATIC=0
+CMAKE_AFTER=(
+    "-DCMAKE_PREFIX_PATH=/opt/ros/jazzy"
+    "-DBUILD_TESTING=OFF"
+)
