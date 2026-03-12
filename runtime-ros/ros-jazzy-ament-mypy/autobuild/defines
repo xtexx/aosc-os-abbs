@@ -1,0 +1,11 @@
+PKGNAME=ros-jazzy-ament-mypy
+PKGSEC=ros
+PKGDEP="ros-jazzy-ros-workspace mypy"
+BUILDDEP="ros-jazzy-ament-flake8 pytest pytest-mock"
+PKGDES="Module to implement mypy static type checking in ament"
+
+ABTYPE=python
+PREFIX="/opt/ros/jazzy"
+ABSPLITDBG=0
+NOPYTHON2=1
+ABHOST=noarch
