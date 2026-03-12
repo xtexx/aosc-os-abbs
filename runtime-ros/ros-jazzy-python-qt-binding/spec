@@ -1,0 +1,4 @@
+VER=2.2.2+1
+SRCS="git::commit=tags/release/jazzy/python_qt_binding/${VER/+/-}::https://github.com/ros2-gbp/python_qt_binding-release.git"
+CHKSUMS="SKIP"
+CHKUPDATE="github::repo=ros2-gbp/python_qt_binding-release;pattern=release/jazzy/python_qt_binding/.*"
