@@ -1,0 +1,14 @@
+PKGNAME=ros-jazzy-rqt-gui-cpp
+PKGSEC=ros
+PKGDEP="ros-jazzy-ros-workspace ros-jazzy-pluginlib ros-jazzy-rclcpp ros-jazzy-qt-gui-cpp"
+BUILDDEP="ros-jazzy-ament-cmake qt-5"
+PKGDES="ROS 2 C++ client library for rqt GUI plugins"
+
+ABTYPE=cmakeninja
+PREFIX="/opt/ros/jazzy"
+ABSPLITDBG=0
+NOSTATIC=0
+CMAKE_AFTER=(
+    "-DCMAKE_PREFIX_PATH=/opt/ros/jazzy"
+    "-DBUILD_TESTING=OFF"
+)
