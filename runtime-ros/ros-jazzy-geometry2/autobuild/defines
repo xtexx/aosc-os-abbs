@@ -1,0 +1,14 @@
+PKGNAME=ros-jazzy-geometry2
+PKGSEC=ros
+PKGDEP="ros-jazzy-ros-workspace ros-jazzy-tf2 ros-jazzy-tf2-bullet ros-jazzy-tf2-eigen ros-jazzy-tf2-eigen-kdl ros-jazzy-tf2-geometry-msgs ros-jazzy-tf2-kdl ros-jazzy-tf2-msgs ros-jazzy-tf2-py ros-jazzy-tf2-ros ros-jazzy-tf2-sensor-msgs ros-jazzy-tf2-tools"
+BUILDDEP="ros-jazzy-ament-cmake"
+PKGDES="Meta package for tf2 (second generation Transform Library)"
+
+ABTYPE=cmakeninja
+PREFIX="/opt/ros/jazzy"
+ABSPLITDBG=0
+NOSTATIC=0
+CMAKE_AFTER=(
+    "-DCMAKE_PREFIX_PATH=/opt/ros/jazzy"
+    "-DBUILD_TESTING=OFF"
+)
