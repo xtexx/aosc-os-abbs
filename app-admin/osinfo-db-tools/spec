@@ -1,4 +1,5 @@
 VER=1.12.0
+REL=1
 SRCS="tbl::https://releases.pagure.org/libosinfo/osinfo-db-tools-${VER}.tar.xz"
 CHKSUMS="sha256::f3315f675d18770f25dea8ed04b20b8fc80efb00f60c37ee5e815f9c3776e7f3"
 CHKUPDATE="anitya::id=226782"
