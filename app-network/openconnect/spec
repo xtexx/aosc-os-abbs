@@ -1,4 +1,5 @@
 VER=9.12
+REL=1
 SRCS="tbl::https://www.infradead.org/openconnect/download/openconnect-$VER.tar.gz"
 CHKSUMS="sha256::a2bedce3aa4dfe75e36e407e48e8e8bc91d46def5335ac9564fbf91bd4b2413e"
 CHKUPDATE="anitya::id=15179"
