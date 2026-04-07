@@ -4,10 +4,13 @@ PKGDEP="tdepim subversion neon binutils libxslt"
 BUILDDEP="tde-common-cmake"
 PKGDES="Software development tools for the Trinity Desktop Environment"
 
-CMAKE_AFTER="-DLIB_INSTALL_DIR=/usr/lib \
-             -DBUILD_ALL=ON \
-             -DWITH_DBSEARCHENGINE=ON \
-             -DWITH_KCAL=ON"
+ABTYPE=cmakeninja
+CMAKE_AFTER=(
+    '-DLIB_INSTALL_DIR=/usr/lib'
+    '-DBUILD_ALL=ON'
+    '-DWITH_DBSEARCHENGINE=ON'
+    '-DWITH_KCAL=ON'
+)
 
 PKGCONFL="cervisia kompare umbrello kde-dev-scripts kcachegrind \
           kapptemplate kde-dev-utils poxml"
