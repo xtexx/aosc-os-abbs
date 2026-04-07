@@ -6,7 +6,7 @@ PKGDEP="curl gcc-runtime gdal glibc hdf5 libgeotiff libunwind libxml2 \
         zstd draco tiledb teaserpp pdal-nitro ceres apache-arrow libcpd"
 BUILDDEP="nlohmann-json gtest"
 
-# NOTE: See options.cmake.
+ABTYPE=cmakeninja
 CMAKE_AFTER=(
     -DWITH_COMPLETION=TRUE
     -DWITH_BACKTRACE=ON
@@ -36,5 +36,3 @@ CMAKE_AFTER=(
 
     -DPostgreSQL_INCLUDE_DIR=/usr/lib/postgresql-18/include    # FIXME: Could NOT find PostgreSQL.
 )
-
-ABTYPE=cmakeninja
