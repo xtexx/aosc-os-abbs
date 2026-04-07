@@ -4,10 +4,13 @@ PKGDEP="tdelibs tdesdk tidyhtml"
 BUILDDEP="tde-common-cmake"
 PKGDES="Web development applications and tools for the Trinity Desktop Environment"
 
-CMAKE_AFTER="-DLIB_INSTALL_DIR=/usr/lib \
-             -DBUILD_ALL=ON \
-             -DWITH_ALL_OPTIONS=ON \
-             -DWITH_GCC_VISIBILITY=OFF"
+ABTYPE=cmakeninja
+CMAKE_AFTER=(
+    '-DLIB_INSTALL_DIR=/usr/lib'
+    '-DBUILD_ALL=ON'
+    '-DWITH_ALL_OPTIONS=ON'
+    '-DWITH_GCC_VISIBILITY=OFF'
+)
 
 NOLIBTOOL=0
 
