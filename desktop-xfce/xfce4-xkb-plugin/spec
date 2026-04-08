@@ -1,4 +1,5 @@
 VER=0.9.0
+REL=1
 SRCS="https://archive.xfce.org/src/panel-plugins/xfce4-xkb-plugin/${VER%.*}/xfce4-xkb-plugin-$VER.tar.xz"
 CHKSUMS="sha256::7cd7f3626ef39dc4ce142b2f96ab7583cbea84b4c0352fbc9c9667faac0bdd12"
 CHKUPDATE="anitya::id=15516"
