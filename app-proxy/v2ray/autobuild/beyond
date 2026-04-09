@@ -1,10 +1,5 @@
-abinfo "Arch Linux: Building V2Ray - Core ..."
-# FIXME: PIE not support on loongson3.
-if ! ab_match_arch loongson3; then
-    go build -buildmode=pie -o v2ray ./main
-else
-    go build -o v2ray ./main
-fi
+abinfo "Renaming binary form main to v2ray ..."
+mv -v "$PKGDIR"/usr/bin/main "$PKGDIR"/usr/bin/v2ray
 
 abinfo "Arch Linux: Installing systemd units ..."
 install -Dvm644 "$SRCDIR"/release/config/systemd/system/v2ray.service \
@@ -15,10 +10,6 @@ install -Dvm644 "$SRCDIR"/release/config/systemd/system/v2ray@.service \
 abinfo "Installing configuration files ..."
 install -Dvm644 "$SRCDIR"/release/config/*.json \
     -t "$PKGDIR"/etc/v2ray/
-
-abinfo "Installing V2Ray executables ..."
-install -Dvm755 "$SRCDIR"/v2ray \
-    -t "$PKGDIR"/usr/bin/
 
 abinfo "Linking to geofile directory ..."
 install -dv "$PKGDIR"/usr/share/v2ray
