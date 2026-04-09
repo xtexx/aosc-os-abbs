@@ -23,6 +23,7 @@ app-containers/podman
 app-containers/skopeo
 app-containers/talosctl
 app-devel/buf
+app-devel/checksec
 app-devel/gh
 app-devel/git-lfs
 app-devel/glab
@@ -112,3 +113,4 @@ lang-ziglang/zvm
 runtime-containers/cni-plugins
 runtime-containers/cri-tools
 runtime-virtualization/libguestfs
+runtime-web/uplink-c
