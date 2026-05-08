@@ -71,6 +71,8 @@ app-utils/chezmoi
 app-utils/cliphist
 app-utils/croc
 app-utils/crush
+app-utils/danksearch
+app-utils/dgop
 app-utils/direnv
 app-utils/dive
 app-utils/duf
@@ -112,5 +114,6 @@ lang-golang/goreleaser
 lang-ziglang/zvm
 runtime-containers/cni-plugins
 runtime-containers/cri-tools
+runtime-desktop/dankmaterialshell
 runtime-virtualization/libguestfs
 runtime-web/uplink-c
