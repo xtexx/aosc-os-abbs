@@ -1,5 +1,5 @@
 VER=0.57.0
-REL=3
+REL=4
 SRCS="git::commit=tags/v$VER::https://github.com/jesseduffield/lazygit"
 CHKSUMS="SKIP"
 CHKUPDATE="anitya::id=268930"
