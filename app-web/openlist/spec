@@ -1,5 +1,5 @@
 VER=4.1.10
-REL=2
+REL=3
 SRCS="git::copy-repo=true;commit=tags/v${VER}::https://github.com/OpenListTeam/OpenList \
       tbl::https://github.com/OpenListTeam/OpenList-Frontend/releases/download/v4.1.10/openlist-frontend-dist-v4.1.10.tar.gz"
 CHKSUMS="SKIP \
