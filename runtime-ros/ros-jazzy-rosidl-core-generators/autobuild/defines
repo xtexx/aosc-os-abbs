@@ -1,6 +1,6 @@
 PKGNAME=ros-jazzy-rosidl-core-generators
 PKGSEC=ros
-PKGDEP="ros-jazzy-ros-workspace ros-jazzy-ament-cmake-core ros-jazzy-rosidl-cmake ros-jazzy-rosidl-generator-c ros-jazzy-rosidl-generator-cpp ros-jazzy-rosidl-generator-py ros-jazzy-rosidl-typesupport-c ros-jazzy-rosidl-typesupport-fastrtps-c ros-jazzy-rosidl-typesupport-introspection-c ros-jazzy-rosidl-typesupport-cpp ros-jazzy-rosidl-typesupport-fastrtps-cpp ros-jazzy-rosidl-typesupport-introspection-cpp"
+PKGDEP="ros-jazzy-ros-workspace ros-jazzy-ament-cmake-core ros-jazzy-rosidl-cmake ros-jazzy-rosidl-generator-c ros-jazzy-rosidl-generator-cpp ros-jazzy-rosidl-generator-py ros-jazzy-rosidl-typesupport-c ros-jazzy-rosidl-typesupport-fastrtps-c ros-jazzy-rosidl-typesupport-introspection-c ros-jazzy-rosidl-typesupport-cpp ros-jazzy-rosidl-typesupport-fastrtps-cpp ros-jazzy-rosidl-typesupport-introspection-cpp ros-jazzy-rosidl-generator-rs"
 BUILDDEP="ros-jazzy-ament-cmake ros-jazzy-ament-lint-auto ros-jazzy-ament-lint-common"
 PKGDES="Define core ROS 2 interface generators"
 
